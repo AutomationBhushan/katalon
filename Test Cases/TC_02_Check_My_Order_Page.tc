@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_02_Book_Appoinment</name>
+   <name>TC_02_Check_My_Order_Page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dc4687bf-fce5-4520-bd88-af0f76ce4fa2</testCaseGuid>

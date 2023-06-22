@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Your Orders</name>
+   <tag></tag>
+   <elementGuidId>3e17c557-0112-421e-91e8-693c0fe6ea19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='a-page']/section/div/div[2]/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>90c8e343-98ff-4f5e-ab31-6249820c5a4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your Orders</value>
+      <webElementGuid>f26728ba-ba43-428e-afc8-5b718aab79d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-page&quot;)/section[@class=&quot;your-orders-content-container aok-relative js-yo-container&quot;]/div[@class=&quot;your-orders-content-container__content js-yo-main-content&quot;]/div[@class=&quot;a-row a-spacing-medium&quot;]/div[@class=&quot;a-column a-span6&quot;]/h1[1]</value>
+      <webElementGuid>e7379340-ea1b-458a-bab7-47c103b28550</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='a-page']/section/div/div[2]/div/h1</value>
+      <webElementGuid>53f5a077-8593-4f62-8b99-56d22425921f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Orders'])[3]/following::h1[1]</value>
+      <webElementGuid>282c61d1-2cca-4ab8-9df4-5d4a2897f4ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='›'])[1]/following::h1[1]</value>
+      <webElementGuid>505ee97b-1121-4ea8-9c1b-4d5969a8d070</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Orders'])[1]/preceding::h1[1]</value>
+      <webElementGuid>d5a9fe88-01c1-4fa3-8372-c9fae221b217</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buy Again'])[2]/preceding::h1[1]</value>
+      <webElementGuid>a3e7dee1-a693-4f9c-96d6-e5f10bd9eaf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>c8e3bd4f-4715-4ac0-a88f-bbe5e830b592</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Your Orders' or . = 'Your Orders')]</value>
+      <webElementGuid>48f68f36-6f7b-4974-af19-de426b7bef09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

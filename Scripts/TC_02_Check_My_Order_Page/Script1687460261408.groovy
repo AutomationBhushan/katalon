@@ -19,22 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC_01_Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Hongkong CURA Healthcare Center', true)
+WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Orders'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs'))
+WebUI.navigateToUrl('https://www.amazon.in/gp/css/order-history?ref_=nav_orders_first')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
+WebUI.click(findTestObject('Object Repository/Page_Your Orders/h1_Your Orders'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_21'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Test Comment')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/appointment.php#summary')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Your Orders/h1_Your Orders'))
 

@@ -23,15 +23,14 @@ WebUI.navigateToUrl('https://www.amazon.in/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in'))
+WebUI.setText(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'), 
+    'Iphone 13')
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon Sign In/input_Email or mobile phone number_email'), 'bhushan.borse@kohler.com')
+WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402'))
+WebUI.click(findTestObject('Object Repository/Page_Amazon.in  Iphone 13/div_1-16 of over 1,000 results for Iphone 13'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign In/input_Forgot Password_password'), 'UkTT/T5uWxHt/j9SPva+fQ==')
+WebUI.click(findTestObject('Object Repository/Page_Amazon.in  Iphone 13/div_1-16 of over 1,000 results for Iphone 13'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign In/input_Enter your password_signInSubmit'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, Bhushan'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Amazon.in  Iphone 13/span_Iphone 13'))
 

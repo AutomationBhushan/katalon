@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_OK_fal fa-user</name>
+   <tag></tag>
+   <elementGuidId>08b31aeb-a269-4f34-a2e4-bd12ff219b90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='user-name']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fal.fa-user</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>79540cab-cf7a-4374-b6bc-5e68b000b967</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-user</value>
+      <webElementGuid>591db43d-6afd-43ac-9712-f746a7e71783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-name&quot;)/i[@class=&quot;fal fa-user&quot;]</value>
+      <webElementGuid>3771efe9-5bff-4414-96eb-3f423b85649c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='user-name']/i</value>
+      <webElementGuid>4efaccd3-59ab-4bc8-979f-617c6d82f639</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/i</value>
+      <webElementGuid>b6caf1ed-25f9-440a-a27f-8837be55e384</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
