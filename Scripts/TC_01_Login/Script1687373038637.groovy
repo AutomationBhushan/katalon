@@ -25,7 +25,7 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon Sign In/input_Email or mobile phone number_email'), 'bhushan.borse@kohler.com')
+WebUI.setText(findTestObject('Object Repository/Page_Amazon Sign In/input_Email or mobile phone number_email'), 'bhushan.bo@kohler.com')
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402'))
 
