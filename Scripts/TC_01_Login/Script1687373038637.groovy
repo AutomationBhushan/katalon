@@ -19,19 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.in/')
+WebUI.navigateToUrl('https://www.studiokohler.com/en-us/faqs')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in'))
+WebUI.click(findTestObject('Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon Sign In/input_Email or mobile phone number_email'), 'bhushan.bo@kohler.com')
+WebUI.setText(findTestObject('Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email'), 'Bhushan.borse@kohler.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402'))
+WebUI.setEncryptedText(findTestObject('Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password'), 'UkTT/T5uWxEyt5z+WbCT2w==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign In/input_Forgot Password_password'), 'UkTT/T5uWxHt/j9SPva+fQ==')
+WebUI.click(findTestObject('Object Repository/KSD/Page_Product FAQs/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Sign In/input_Enter your password_signInSubmit'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, Bhushan'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Bhushan'))
 

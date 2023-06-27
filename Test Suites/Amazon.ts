@@ -22,14 +22,14 @@
       <guid>a5cf0bb6-3376-4123-98b9-aa662c820ac1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_02_Check_My_Order_Page</testCaseId>
+      <testCaseId>Test Cases/TC_02_Header_Menu_Check</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a8e65e2f-62c3-42c6-b216-1b474bb053be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_3_Search_Functionality</testCaseId>
+      <testCaseId>Test Cases/TC_03_Search_Functionality</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
