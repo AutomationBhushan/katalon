@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon,Chrome 114.0.0.0,,,2023-06-23 00:44:51,2023-06-23 00:53:56,9m - 4.431s,PASSED
+,,,,,,,
+Test Cases/TC_01_Login,Chrome 114.0.0.0,,,2023-06-23 00:44:52,2023-06-23 00:48:05,3m - 13.611s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-23 00:44:52,2023-06-23 00:45:02,10.379s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-06-23 00:45:02,2023-06-23 00:45:27,24.619s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-23 00:45:27,2023-06-23 00:45:42,15.479s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in""))",Chrome 114.0.0.0,,,2023-06-23 00:45:42,2023-06-23 00:46:25,42.934s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""bhushan.borse@kohler.com"")",Chrome 114.0.0.0,,,2023-06-23 00:46:25,2023-06-23 00:46:39,13.787s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 114.0.0.0,,,2023-06-23 00:46:39,2023-06-23 00:46:49,10.240s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Amazon Sign In/input_Forgot Password_password""), ""UkTT/T5uWxHt/j9SPva+fQ=="")",Chrome 114.0.0.0,,,2023-06-23 00:46:49,2023-06-23 00:46:54,4.315s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Chrome 114.0.0.0,,,2023-06-23 00:46:54,2023-06-23 00:46:58,4.247s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, Bhushan""))",Chrome 114.0.0.0,,,2023-06-23 00:46:58,2023-06-23 00:48:05,1m - 7.212s,PASSED
+,,,,,,,
+Test Cases/TC_02_Check_My_Order_Page,Chrome 114.0.0.0,,,2023-06-23 00:49:40,2023-06-23 00:52:49,3m - 8.959s,PASSED
+"callTestCase(findTestCase(""TC_01_Login""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-23 00:49:40,2023-06-23 00:52:15,2m - 34.646s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Orders""))",Chrome 114.0.0.0,,,2023-06-23 00:52:15,2023-06-23 00:52:24,9.339s,PASSED
+"navigateToUrl(""https://www.amazon.in/gp/css/order-history?ref_=nav_orders_first"")",Chrome 114.0.0.0,,,2023-06-23 00:52:24,2023-06-23 00:52:36,11.682s,PASSED
+"click(findTestObject(""Object Repository/Page_Your Orders/h1_Your Orders""))",Chrome 114.0.0.0,,,2023-06-23 00:52:36,2023-06-23 00:52:48,11.807s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Your Orders/h1_Your Orders""))",Chrome 114.0.0.0,,,2023-06-23 00:52:48,2023-06-23 00:52:49,1.457s,PASSED
+,,,,,,,
+Test Cases/TC_3_Search_Functionality,Chrome 114.0.0.0,,,2023-06-23 00:52:49,2023-06-23 00:53:56,1m - 6.348s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-23 00:52:50,2023-06-23 00:52:57,7.036s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 114.0.0.0,,,2023-06-23 00:52:57,2023-06-23 00:53:11,14.316s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-23 00:53:11,2023-06-23 00:53:17,5.814s,PASSED
+"setText(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), ""Iphone 13"")",Chrome 114.0.0.0,,,2023-06-23 00:53:17,2023-06-23 00:53:29,12.814s,PASSED
+"click(findTestObject(""Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Chrome 114.0.0.0,,,2023-06-23 00:53:29,2023-06-23 00:53:43,13.437s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.in  Iphone 13/div_1-16 of over 1,000 results for Iphone 13""))",Chrome 114.0.0.0,,,2023-06-23 00:53:43,2023-06-23 00:53:54,11.459s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.in  Iphone 13/div_1-16 of over 1,000 results for Iphone 13""))",Chrome 114.0.0.0,,,2023-06-23 00:53:54,2023-06-23 00:53:55,0.724s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Amazon.in  Iphone 13/span_Iphone 13""))",Chrome 114.0.0.0,,,2023-06-23 00:53:55,2023-06-23 00:53:56,0.449s,PASSED

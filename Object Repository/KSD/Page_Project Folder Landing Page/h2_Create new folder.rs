@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Create new folder</name>
+   <tag></tag>
+   <elementGuidId>39bfbca7-b2a8-495b-8f19-395692a60749</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamic-folders']/div/div[2]/a/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.text-uppercase</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>1bdb9910-04ba-49d1-834f-957888c05bcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-uppercase</value>
+      <webElementGuid>7ba54773-d460-4302-b818-b24992f2c2b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create new folder</value>
+      <webElementGuid>fad25d15-6277-40b5-afb2-1ece59c6320f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamic-folders&quot;)/div[@class=&quot;col-12 col-md-6 col-lg-4 folder-add&quot;]/div[@class=&quot;details position-relative&quot;]/a[@class=&quot;primary-color&quot;]/h2[@class=&quot;text-uppercase&quot;]</value>
+      <webElementGuid>c2e85039-7038-46c2-a988-0e690ccb34f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamic-folders']/div/div[2]/a/h2</value>
+      <webElementGuid>f3b10b18-7e22-41ae-a31a-3d4152b14533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Assistance'])[2]/following::h2[1]</value>
+      <webElementGuid>e56df8cd-9f19-4099-b438-9c13790e1a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share with Store'])[1]/preceding::h2[1]</value>
+      <webElementGuid>7d5e7765-706b-4031-ba2d-9c51aa8418f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[3]/preceding::h2[2]</value>
+      <webElementGuid>ebb3224f-902f-4bc2-aa07-c0dc0077bc44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create new folder']/parent::*</value>
+      <webElementGuid>d8dc45f0-b8f9-46db-bf89-be6640b79e87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>3687f66c-302b-4df3-8b98-ce96e57f8298</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Create new folder' or . = 'Create new folder')]</value>
+      <webElementGuid>bdd451e0-5eee-4e33-aeba-3fb520b3e2a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

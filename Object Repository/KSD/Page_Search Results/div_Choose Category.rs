@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Choose Category</name>
+   <tag></tag>
+   <elementGuidId>0f68d524-b8f9-4371-b465-e7ddd58ae1a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='products']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.choose-cat.footer-typ</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a117ed84-e9f4-417a-85ec-dad4ec2f02d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>choose-cat footer-typ</value>
+      <webElementGuid>60c5f18c-f090-4982-b621-484757cb1505</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose Category</value>
+      <webElementGuid>86335598-6bb6-45d0-8b81-a8fbf1729524</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;products&quot;)/div[@class=&quot;select-category px-0 mb-5 col-lg-3&quot;]/div[@class=&quot;choose-cat footer-typ&quot;]</value>
+      <webElementGuid>d51b6d97-72f6-4b80-b325-575ba96f18c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='products']/div/div</value>
+      <webElementGuid>7b96acfc-2926-4385-bbfb-26a5aad70d44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(68)'])[1]/following::div[4]</value>
+      <webElementGuid>fef6a0f4-5a66-4785-8d62-f7344b513ee7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Articles'])[1]/following::div[4]</value>
+      <webElementGuid>46ee833f-956b-4c01-9d2b-d3a7bc560ce7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Choose Category']/parent::*</value>
+      <webElementGuid>72b5956a-a0a5-4125-936a-4c4d21b339cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div/div/div/div</value>
+      <webElementGuid>5eca22d6-1e6a-4203-8540-6bf11d508176</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Choose Category' or . = 'Choose Category')]</value>
+      <webElementGuid>4ac8bb1a-cab2-45a9-bee3-9480d9058c3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

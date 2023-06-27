@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create Folder</name>
+   <tag></tag>
+   <elementGuidId>1f7c00cc-289d-4096-96c9-4beab31ee9d4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[33]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.footers.text-md-right.pt-4 > button.col-md-5.btn.btn-primary.btn-black.submit.float-right.mb-3.mb-md-auto</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0770f08f-502f-4426-9f5e-17d6f0ee29c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>ee3a4255-7819-4e40-ae4e-741d649e46f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-5 btn btn-primary btn-black submit float-right mb-3 mb-md-auto</value>
+      <webElementGuid>17e7ac3a-54e9-4fe5-94fd-1648fee0d0e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Folder</value>
+      <webElementGuid>857d9c60-dacb-4497-8d4d-7c3530ba34d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;create-modal&quot;)/div[@class=&quot;modal-dialog mx-auto&quot;]/div[@class=&quot;modal-content rounded-0 border-0 h-100&quot;]/div[@class=&quot;modal-body&quot;]/form[@class=&quot;create-form&quot;]/div[@class=&quot;footers text-md-right pt-4&quot;]/button[@class=&quot;col-md-5 btn btn-primary btn-black submit float-right mb-3 mb-md-auto&quot;]</value>
+      <webElementGuid>b9244ff8-b2be-423e-8aa9-ff25eebd8cc0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[33]</value>
+      <webElementGuid>96676c53-296a-4f20-bf1b-10e72321012b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='create-modal']/div/div/div/form/div[3]/button</value>
+      <webElementGuid>dbe4ad52-e65f-4013-bdf4-20152db7ea87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/140'])[7]/following::button[1]</value>
+      <webElementGuid>c3396e43-6d4e-4c62-8f4e-8c92fe586ae4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please Enter a Valid Note'])[6]/following::button[1]</value>
+      <webElementGuid>ac372704-8f9c-4e52-91cb-610bfd35738f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[21]/preceding::button[1]</value>
+      <webElementGuid>48ff6516-5dad-43bb-ab46-23a9be05083a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a Project Folder'])[1]/preceding::button[3]</value>
+      <webElementGuid>4ca6080d-13c7-42b8-bc9f-b71dc7487470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Folder']/parent::*</value>
+      <webElementGuid>3ca48430-33af-4bf1-8723-0681030596cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/form/div[3]/button</value>
+      <webElementGuid>476bb344-69cd-408f-9cfe-afc62215f5d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Create Folder' or . = 'Create Folder')]</value>
+      <webElementGuid>0b2b362d-4838-4a4e-b097-71588a73156b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

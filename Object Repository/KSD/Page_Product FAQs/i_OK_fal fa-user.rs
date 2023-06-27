@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_OK_fal fa-user</name>
+   <tag></tag>
+   <elementGuidId>eae2f8b0-2c9d-48e1-9b0f-eb4e9c7ee469</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='user-name']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fal.fa-user</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ec84618d-b380-4946-9096-e6e386e70268</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-user</value>
+      <webElementGuid>fabac068-1dd0-4d5f-9af4-4de5175857bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-name&quot;)/i[@class=&quot;fal fa-user&quot;]</value>
+      <webElementGuid>ae5b7856-7a4e-4f95-a991-8dcfde718144</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>75a55f7b-ec52-4f10-9cf2-48694c282de5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-user</value>
+      <webElementGuid>12c53c6d-d73d-4c45-ad03-0e8c7476ec23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;user-name&quot;)/i[@class=&quot;fal fa-user&quot;]</value>
+      <webElementGuid>8b0408ff-1425-45df-a5d8-50ee127017af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='user-name']/i</value>
+      <webElementGuid>d8025532-d6f7-4985-82a1-a552d0fe7f07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/i</value>
+      <webElementGuid>49360070-95f1-48e5-a2e5-5156fefb376e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

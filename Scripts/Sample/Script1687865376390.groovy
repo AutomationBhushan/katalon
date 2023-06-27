@@ -19,18 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.in/')
+WebUI.navigateToUrl('https://www.studiokohler.com/en-us/faqs')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'), 
-    'Iphone 13')
-
-WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button'))
-
-WebUI.click(findTestObject('Object Repository/Page_Amazon.in  Iphone 13/div_1-16 of over 1,000 results for Iphone 13'))
-
-WebUI.click(findTestObject('Object Repository/Page_Amazon.in  Iphone 13/div_1-16 of over 1,000 results for Iphone 13'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Amazon.in  Iphone 13/span_Iphone 13'))
+WebUI.click(findTestObject('Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies'))
 

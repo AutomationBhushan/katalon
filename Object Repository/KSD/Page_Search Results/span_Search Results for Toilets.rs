@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Search Results for Toilets</name>
+   <tag></tag>
+   <elementGuidId>c6754533-6c77-4ca8-8d0b-c5a5f2657f1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.active-page</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a8f65a20-04da-4434-ba47-fdaec6a3af94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>active-page</value>
+      <webElementGuid>b883281a-02ad-4020-9fe8-00957489d18a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search Results for &quot;Toilets&quot;</value>
+      <webElementGuid>4989231b-7040-40b6-b207-3224e1974dd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page basicpage&quot;]/div[@class=&quot;root responsivegrid&quot;]/div[@class=&quot;aem-Grid aem-Grid--12 aem-Grid--default--12&quot;]/div[@class=&quot;responsivegrid aem-GridColumn aem-GridColumn--default--12&quot;]/div[@class=&quot;aem-Grid aem-Grid--12 aem-Grid--default--12&quot;]/div[@class=&quot;breadcrumb aem-GridColumn aem-GridColumn--default--12&quot;]/div[@class=&quot;kds-breadcrumbs&quot;]/div[@class=&quot;container&quot;]/nav[1]/ul[@class=&quot;py-3 pl-0 breadcrumbs&quot;]/span[@class=&quot;active-page&quot;]</value>
+      <webElementGuid>fb445516-abbc-4e79-a91f-83bced200db4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1b78ebb5-3479-4fc2-bbd5-b886e24016cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cat-title</value>
+      <webElementGuid>f158e1ce-6463-49a0-a254-aa1bbd6a8b61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>category-title px-0 main-typ</value>
+      <webElementGuid>9c56acc5-7731-4e80-9ff0-c9612415f89b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search Results for &quot;Toilets&quot;</value>
+      <webElementGuid>b5535387-fc24-41d0-8588-fff229ae2772</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page basicpage&quot;]/div[@class=&quot;root responsivegrid&quot;]/div[@class=&quot;aem-Grid aem-Grid--12 aem-Grid--default--12&quot;]/div[@class=&quot;responsivegrid aem-GridColumn aem-GridColumn--default--12&quot;]/div[@class=&quot;aem-Grid aem-Grid--12 aem-Grid--default--12&quot;]/div[@class=&quot;search-result aem-GridColumn aem-GridColumn--default--12&quot;]/div[@class=&quot;pt-3 search-result-page search-page&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;col-lg-12 col-md-12 col-12 pt-3 pb-4 px-0&quot;]/span[@id=&quot;cat-title&quot;]</value>
+      <webElementGuid>37ca21c2-71a3-4a20-917c-34b4a0a0ba7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/following::span[1]</value>
+      <webElementGuid>2b78437c-da76-42fd-8f6c-36fc7ce99ea4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue Browsing'])[1]/following::span[1]</value>
+      <webElementGuid>a0092b3d-7a70-4f2e-9310-7e24abe706ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='India'])[5]/preceding::span[1]</value>
+      <webElementGuid>d37fe4e1-8a4a-42b7-a2cd-84a428917ec7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/span</value>
+      <webElementGuid>b1a433e4-a07c-4788-a7bb-a4a641ebaf20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Search Results for &quot;Toilets&quot;' or . = 'Search Results for &quot;Toilets&quot;')]</value>
+      <webElementGuid>0e874ae4-88d2-4a7a-8a4f-eed07b3b9810</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='cat-title']</value>
+      <webElementGuid>a422cf0b-5450-457b-9f10-d12ccb889cfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='India'])[5]/following::span[1]</value>
+      <webElementGuid>181d85de-be8e-466d-a8af-1f9aeb90c8af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/span</value>
+      <webElementGuid>56ad12ac-1679-445f-a306-f1749282f7af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'cat-title' and (text() = 'Search Results for &quot;Toilets&quot;' or . = 'Search Results for &quot;Toilets&quot;')]</value>
+      <webElementGuid>a07f5945-2627-4389-bc7b-7cdc3d3b7151</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

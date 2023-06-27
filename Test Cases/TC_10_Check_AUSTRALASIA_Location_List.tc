@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_3_Search_Functionality</name>
+   <name>TC_10_Check_AUSTRALASIA_Location_List</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e7029432-0527-426e-b1b4-1c393e3d502e</testCaseGuid>
+   <testCaseGuid>b80680cc-5012-49e2-9505-d1a4e7ac6f6c</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_test folder</name>
+   <tag></tag>
+   <elementGuidId>7490be18-0356-4ef5-be3e-56d1c9d796bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamic-folders']/div[2]/div/a/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>95c269a1-8a5a-45c7-84fe-61dbbeb20d07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-uppercase</value>
+      <webElementGuid>4edb4460-2e5d-4423-b456-762796028707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>test folder</value>
+      <webElementGuid>1fb22fdf-06f2-4c4a-9e18-b894a7d4595b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamic-folders&quot;)/div[@class=&quot;col-12 col-md-6 col-lg-4 dynamic-created-folder&quot;]/div[@class=&quot;details position-relative&quot;]/a[@class=&quot;primary-color&quot;]/h2[@class=&quot;text-uppercase&quot;]</value>
+      <webElementGuid>52adb7ad-eb93-4fcc-8d15-574cda9d579f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamic-folders']/div[2]/div/a/h2</value>
+      <webElementGuid>aa652d19-70be-40b2-94d0-137a4b40f760</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create new folder'])[1]/following::h2[1]</value>
+      <webElementGuid>e3987eae-a1cb-4eb7-979d-55851a2dccee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share with Store'])[1]/preceding::h2[1]</value>
+      <webElementGuid>165433ea-8551-450e-b999-c2f7571c0e4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[3]/preceding::h2[2]</value>
+      <webElementGuid>64fc4e43-641a-4b2e-8344-4611282b4795</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/h2</value>
+      <webElementGuid>9cc4bde9-b380-4fd6-ab83-f5dc49095237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'test folder' or . = 'test folder')]</value>
+      <webElementGuid>1e8ba3f5-4deb-4fa8-b52b-27a67c16dc4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

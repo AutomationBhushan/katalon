@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_First Folder_fal fa-trash-alt</name>
+   <tag></tag>
+   <elementGuidId>2b48dce8-b770-4704-b629-d3c8ed460cdc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamic-folders']/div[2]/div/p/a[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fal.fa-trash-alt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>595137d7-a0f9-4b7f-9d31-ca6db39d7ef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-trash-alt</value>
+      <webElementGuid>d0833c0b-d8df-4c64-b36d-d1c1859e7322</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamic-folders&quot;)/div[@class=&quot;col-12 col-md-6 col-lg-4 dynamic-created-folder&quot;]/div[@class=&quot;details position-relative&quot;]/p[1]/a[@class=&quot;primary-color delete-folder&quot;]/i[@class=&quot;fal fa-trash-alt&quot;]</value>
+      <webElementGuid>ce1fd445-6133-4469-8671-65dd52a19b18</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamic-folders']/div[2]/div/p/a[2]/i</value>
+      <webElementGuid>b7e5f9e8-e2b5-40ee-8901-d9bc501dd0d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a[2]/i</value>
+      <webElementGuid>78618e25-6eca-41e8-8691-a8ca48672e29</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Delete Folder</name>
+   <tag></tag>
+   <elementGuidId>f3f71a12-1a0a-4a11-80a7-c877e5755799</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[80]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.col-md-6.btn.submit.btn-primary.btn-black.float-right.mb-3.mb-md-auto</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6f8bc924-8b84-4b09-910a-3b18e4515a9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>eef267fd-0a7a-4aec-8475-41b15215c513</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-6 btn submit btn-primary btn-black float-right mb-3 mb-md-auto</value>
+      <webElementGuid>5e5a11b9-1581-4252-827b-54fae0dce392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-folder-name</name>
+      <type>Main</type>
+      <value>test folder</value>
+      <webElementGuid>2119acd0-2944-41b2-b125-ab78a938f4a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete Folder</value>
+      <webElementGuid>894fca92-9a71-4df2-a9c8-645768ab5f31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;del-folder-modal&quot;)/div[@class=&quot;modal-dialog mx-auto&quot;]/div[@class=&quot;modal-content rounded-0 border-0&quot;]/div[@class=&quot;modal-body&quot;]/form[@class=&quot;del-folder-form&quot;]/div[@class=&quot;footers text-md-right pt-4&quot;]/button[@class=&quot;col-md-6 btn submit btn-primary btn-black float-right mb-3 mb-md-auto&quot;]</value>
+      <webElementGuid>416f108b-e53d-4179-9b7b-c76c4b306edd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[80]</value>
+      <webElementGuid>de291d21-e355-4e95-a678-8ea9c6fca484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='del-folder-modal']/div/div/div/form/div[2]/button</value>
+      <webElementGuid>a7422312-c752-4e93-a3de-c6963da8c657</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test folder'])[6]/following::button[1]</value>
+      <webElementGuid>6409cb29-a71a-42c0-b6a2-bfc153290dc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[31]/preceding::button[1]</value>
+      <webElementGuid>ef9d3460-d935-40cd-8a62-d48e12e78a38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WeChat'])[1]/preceding::button[3]</value>
+      <webElementGuid>b9f5e210-e131-4b6c-86f5-851801e6b506</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete Folder']/parent::*</value>
+      <webElementGuid>84690f1c-93ad-461e-86d4-4418772ebbdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div/div/form/div[2]/button</value>
+      <webElementGuid>e1d71a26-994c-4ff4-a2f0-c1760ad462d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Delete Folder' or . = 'Delete Folder')]</value>
+      <webElementGuid>6a044f93-c09d-436f-af9a-99b2e472a7a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC_01_Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('TC_06_Select_Project_Location'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Online Shopping site in India Shop Onl_10c5f3/span_Orders'))
+WebUI.click(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Middle East'))
 
-WebUI.navigateToUrl('https://www.amazon.in/gp/css/order-history?ref_=nav_orders_first')
+WebUI.rightClick(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Bahrain'))
 
-WebUI.click(findTestObject('Object Repository/Page_Your Orders/h1_Your Orders'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Bahrain'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Your Orders/h1_Your Orders'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Kuwait'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_United Arab Emirates'))
 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Project Folder_fal fa-search</name>
+   <tag></tag>
+   <elementGuidId>e502c9b4-60e9-4018-8d19-e4533419dbe1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='nav-search']/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.animated-header.hover-effect.pr-0.dropdown-toggle.fregular > i.fal.fa-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8422c727-e7fd-4ae1-ade7-f1f1e4f20f38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-search</value>
+      <webElementGuid>497556a5-c51c-446e-8f8a-6e7889888d3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-search&quot;)/a[@class=&quot;nav-link animated-header hover-effect pr-0 dropdown-toggle fregular&quot;]/i[@class=&quot;fal fa-search&quot;]</value>
+      <webElementGuid>5b9f469f-297d-460a-9af7-1dc458ff1c9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8c1fb488-6e77-4bc3-9b7c-808e61f54e8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-search</value>
+      <webElementGuid>14559577-f7be-4da9-9b1b-4d8ae7d1d65e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-search&quot;)/a[@class=&quot;nav-link animated-header hover-effect pr-0 dropdown-toggle fregular&quot;]/i[@class=&quot;fal fa-search&quot;]</value>
+      <webElementGuid>a065d3be-52fc-48af-ab5b-a8d90b9442db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='nav-search']/a/i</value>
+      <webElementGuid>f221a6c5-f0c8-4082-9a8d-c94f2a29fab7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/a/i</value>
+      <webElementGuid>452d0e6f-1e85-4794-9c75-22ee03dd7299</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
