@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>9b04e412-2265-456e-9584-11a3895a2882</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Company Logo&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='onetrust-pc-sdk']/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>1339daec-96c4-446d-98a0-b2101b42e81b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Company Logo</value>
+      <webElementGuid>2f14ad48-c9ef-412f-bb2b-47597066119c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://cdn.cookielaw.org/logos/static/ot_company_logo.png</value>
+      <webElementGuid>efe7d353-d3a3-4f2b-be0c-221441f6fe4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;onetrust-pc-sdk&quot;)/div[1]/div[@class=&quot;ot-pc-header&quot;]/div[@class=&quot;ot-pc-logo&quot;]/img[1]</value>
+      <webElementGuid>fe75b472-c9bb-4d42-93f1-fbfcc9f4467d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='onetrust-pc-sdk']/div/div/div/img</value>
+      <webElementGuid>f11df03b-0f32-4ea1-a825-97fcf397a484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Company Logo']</value>
+      <webElementGuid>0b19a4f3-4f02-46cb-a35d-c773ce831ad1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/img</value>
+      <webElementGuid>1ca1bb36-790d-4056-a113-25fa7204ab4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Company Logo' and @src = 'https://cdn.cookielaw.org/logos/static/ot_company_logo.png']</value>
+      <webElementGuid>483adbfa-2013-41f3-9225-f8b85f0ec58e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

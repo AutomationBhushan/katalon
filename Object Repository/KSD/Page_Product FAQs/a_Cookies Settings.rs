@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cookies Settings</name>
+   <tag></tag>
+   <elementGuidId>b6824eb9-bf14-4453-85f2-d803fe2e525a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ot-sdk-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ot-sdk-link']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>51d36979-0ef4-4b1b-839d-cc6a611de8e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ot-sdk-link</value>
+      <webElementGuid>5e021758-706a-4fbd-a2c9-e4a4ca6ff923</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ot-sdk-show-settings</value>
+      <webElementGuid>12a0b695-99b3-4a7f-8d65-7bcf9da59c1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Cookies Settings</value>
+      <webElementGuid>6658fab3-3843-45eb-9dc8-fe87903360eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>3fd0dfe2-9f2a-420f-b629-04fc088f9e63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cookies Settings</value>
+      <webElementGuid>42598442-3ebe-41a5-b6e8-76e5d070ef92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ot-sdk-link&quot;)</value>
+      <webElementGuid>0a258ece-1e33-46ee-ae54-5ded1bb9646c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ot-sdk-link']</value>
+      <webElementGuid>a5793ca0-b7f5-442e-a591-8581ff8aa017</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Cookies Settings')]</value>
+      <webElementGuid>614a1757-37a7-41d8-899e-e90bce45d978</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy'])[1]/following::a[1]</value>
+      <webElementGuid>a3bbcc21-9e01-43ad-a0e5-22afbb4ba8c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal'])[1]/following::a[2]</value>
+      <webElementGuid>cdfef6eb-7b1b-4100-bb6d-0c80448ec489</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject Access Request'])[1]/preceding::a[1]</value>
+      <webElementGuid>2223c8a9-7214-4277-a1f0-161895c58614</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Kohler Co. All Rights Reserved'])[1]/preceding::a[2]</value>
+      <webElementGuid>96daedf8-0a5b-444d-a28c-6d27b9fdaaf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cookies Settings']/parent::*</value>
+      <webElementGuid>6716b798-e27b-4358-be4e-a0e2356d5dae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[422]</value>
+      <webElementGuid>24ad9341-f45c-46d3-a97e-da33b09c4083</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[3]/a</value>
+      <webElementGuid>02db5584-2f3e-4b68-b03d-8fc4bb9afd6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ot-sdk-link' and @href = '#' and (text() = 'Cookies Settings' or . = 'Cookies Settings')]</value>
+      <webElementGuid>60842268-cceb-43e9-8b84-35add8071e76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

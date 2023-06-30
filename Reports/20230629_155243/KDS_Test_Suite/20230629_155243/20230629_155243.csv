@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KDS_Test_Suite,Chrome 114.0.0.0,,,2023-06-29 15:52:47,2023-06-29 16:11:52,19m - 5.595s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_01_Login,Chrome 114.0.0.0,,,2023-06-29 15:52:47,2023-06-29 15:54:59,2m - 12.404s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 15:52:47,2023-06-29 15:52:57,9.367s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 15:52:57,2023-06-29 15:53:59,1m - 1.898s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 15:53:59,2023-06-29 15:53:59,0.797s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user""))",Chrome 114.0.0.0,,,2023-06-29 15:53:59,2023-06-29 15:54:02,2.945s,PASSED
+"setText(findTestObject(""Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email""), ""Bhushan.borse@kohler.com"")",Chrome 114.0.0.0,,,2023-06-29 15:54:02,2023-06-29 15:54:08,5.172s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password""), ""UkTT/T5uWxEyt5z+WbCT2w=="")",Chrome 114.0.0.0,,,2023-06-29 15:54:08,2023-06-29 15:54:10,2.128s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Sign In""))",Chrome 114.0.0.0,,,2023-06-29 15:54:10,2023-06-29 15:54:13,3.257s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_Bhushan""))",Chrome 114.0.0.0,,,2023-06-29 15:54:13,2023-06-29 15:54:59,46.166s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-29 15:54:59,2023-06-29 15:54:59,0.242s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_02_Header_Menu_Check,Chrome 114.0.0.0,,,2023-06-29 15:54:59,2023-06-29 15:56:20,1m - 20.653s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 15:55:00,2023-06-29 15:55:05,5.679s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 15:55:05,2023-06-29 15:56:07,1m - 1.523s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 15:56:07,2023-06-29 15:56:09,1.721s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_Products""))",Chrome 114.0.0.0,,,2023-06-29 15:56:09,2023-06-29 15:56:10,1.328s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_Resources""))",Chrome 114.0.0.0,,,2023-06-29 15:56:10,2023-06-29 15:56:10,0.497s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_Services""))",Chrome 114.0.0.0,,,2023-06-29 15:56:10,2023-06-29 15:56:11,0.588s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_Inspiration""))",Chrome 114.0.0.0,,,2023-06-29 15:56:11,2023-06-29 15:56:11,0.415s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_OK""))",Chrome 114.0.0.0,,,2023-06-29 15:56:11,2023-06-29 15:56:15,3.539s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_Events""))",Chrome 114.0.0.0,,,2023-06-29 15:56:15,2023-06-29 15:56:16,0.661s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_About""))",Chrome 114.0.0.0,,,2023-06-29 15:56:16,2023-06-29 15:56:16,0.455s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_India""))",Chrome 114.0.0.0,,,2023-06-29 15:56:16,2023-06-29 15:56:16,0.442s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-folder""))",Chrome 114.0.0.0,,,2023-06-29 15:56:16,2023-06-29 15:56:18,1.120s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 15:56:18,2023-06-29 15:56:18,0.420s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user""))",Chrome 114.0.0.0,,,2023-06-29 15:56:18,2023-06-29 15:56:18,0.399s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search""))",Chrome 114.0.0.0,,,2023-06-29 15:56:18,2023-06-29 15:56:19,1.060s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/img_OK_black-version logo_js""))",Chrome 114.0.0.0,,,2023-06-29 15:56:19,2023-06-29 15:56:20,0.345s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-29 15:56:20,2023-06-29 15:56:20,0.205s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_03_Search_Functionality,Chrome 114.0.0.0,,,2023-06-29 15:56:20,2023-06-29 15:59:00,2m - 39.674s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 15:56:20,2023-06-29 15:56:26,5.650s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 15:56:26,2023-06-29 15:57:40,1m - 14.085s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 15:57:40,2023-06-29 15:57:42,2.341s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search""))",Chrome 114.0.0.0,,,2023-06-29 15:57:42,2023-06-29 15:57:51,8.756s,PASSED
+"setText(findTestObject(""Object Repository/KSD/Page_Product FAQs/input_Project Folder_search""), ""toi"")",Chrome 114.0.0.0,,,2023-06-29 15:57:51,2023-06-29 15:57:56,5.059s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_Toilets""))",Chrome 114.0.0.0,,,2023-06-29 15:57:56,2023-06-29 15:58:57,1m - 1.077s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Search Results/span_Search Results for Toilets""))",Chrome 114.0.0.0,,,2023-06-29 15:58:57,2023-06-29 15:58:59,1.416s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/span_Search Results for Toilets""))",Chrome 114.0.0.0,,,2023-06-29 15:58:59,2023-06-29 15:58:59,0.790s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-29 15:58:59,2023-06-29 15:59:00,0.237s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_04_Check_Search_Result_page,Chrome 114.0.0.0,,,2023-06-29 16:07:47,2023-06-29 16:10:32,2m - 45.197s,FAILED
+"callTestCase(findTestCase(""KDS/TC_03_Search_Functionality""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-29 16:07:47,2023-06-29 16:10:32,2m - 44.935s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/span_Search Results for Toilets""))",Chrome 114.0.0.0,,,2023-06-29 16:10:32,2023-06-29 16:10:32,0.162s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_05_Cookies_Close,Chrome 114.0.0.0,,,2023-06-29 16:10:32,2023-06-29 16:11:52,1m - 20.283s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 16:10:32,2023-06-29 16:10:38,6.083s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 16:10:38,2023-06-29 16:11:47,1m - 8.291s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 16:11:47,2023-06-29 16:11:47,0.808s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a""))",Chrome 114.0.0.0,,,2023-06-29 16:11:47,2023-06-29 16:11:51,3.771s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a""))",Chrome 114.0.0.0,,,2023-06-29 16:11:51,2023-06-29 16:11:52,0.667s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-29 16:11:52,2023-06-29 16:11:52,0.212s,PASSED

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Legal</name>
+   <tag></tag>
+   <elementGuidId>afbb969a-de8c-4773-bd11-ded85b950188</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.footer-typ.pl-lg-0.mb-0.pr-4.pr-lg-5 > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Legal')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9d55e742-920c-42f4-9f20-e809149c4cfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/en-us/legal-policy</value>
+      <webElementGuid>17d0e33a-b715-40a1-be86-5b2c8ee7ab65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Legal</value>
+      <webElementGuid>fe0b75b9-5828-4abb-994a-5f45c7ffcf20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;articlepage page basicpage&quot;]/div[@class=&quot;root responsivegrid&quot;]/div[@class=&quot;aem-Grid aem-Grid--12 aem-Grid--default--12&quot;]/div[@class=&quot;experiencefragment aem-GridColumn aem-GridColumn--default--12&quot;]/div[@class=&quot;xf-content-height&quot;]/div[@class=&quot;aem-Grid aem-Grid--12 aem-Grid--default--12&quot;]/div[@class=&quot;footer aem-GridColumn aem-GridColumn--default--12&quot;]/footer[1]/div[@class=&quot;footer-bot&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row px-0 copy-rights-text px-lg-0 px-md-0  py-3 py-lg-2&quot;]/div[@class=&quot;col-lg-6 col-md-6 col-sm-12 footer-policy px-lg-0&quot;]/label[@class=&quot;footer-typ pl-lg-0 mb-0 pr-4 pr-lg-5&quot;]/a[1]</value>
+      <webElementGuid>91779078-aeae-40cf-b216-07f24ea96620</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Legal')]</value>
+      <webElementGuid>39c9de52-2b04-4993-9b68-2e7518ada975</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CoBrowse code'])[1]/following::a[1]</value>
+      <webElementGuid>9daadf86-2521-4593-b6b1-38641e2db3a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='privacy policy'])[1]/following::a[1]</value>
+      <webElementGuid>fbd7fda2-79b7-4b94-8d32-aadf573e9326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy'])[1]/preceding::a[1]</value>
+      <webElementGuid>0dba23ec-ff3f-48c5-a0d0-a40affafbc01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subject Access Request'])[1]/preceding::a[3]</value>
+      <webElementGuid>29613385-e65e-4c33-8522-046884df24b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Legal']/parent::*</value>
+      <webElementGuid>768eb844-c542-4e30-9b2f-476c44ac8278</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/en-us/legal-policy')]</value>
+      <webElementGuid>0039813f-bba1-4a94-9404-cd1a8a9f4d77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/a</value>
+      <webElementGuid>069edec0-d52a-44d8-9958-e7a0a90700d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/en-us/legal-policy' and (text() = 'Legal' or . = 'Legal')]</value>
+      <webElementGuid>93dfe386-8f2d-47b9-9ba0-ecad802abdb5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

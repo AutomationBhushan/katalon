@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_THAILAND</name>
+   <tag></tag>
+   <elementGuidId>cef5fd27-4207-4881-90b5-66ee9a704b37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page1']/div/div[2]/div/div/div/ul/li[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>0e838b67-fb1d-47f8-9279-acd368d1d0b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>py-4 d-inline-block</value>
+      <webElementGuid>5f87a53d-42a9-45ee-8943-41297082f205</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>THAILAND</value>
+      <webElementGuid>00232e20-1f54-44b2-8fca-2828fd9b54a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page1&quot;)/div[@class=&quot;find-store kohler-store text-center&quot;]/div[@class=&quot;container find-a-store-map mt-4 pt-2&quot;]/div[@class=&quot;position-relative select-store&quot;]/div[@class=&quot;find-body&quot;]/div[@class=&quot;find-store-list col-lg-8 col-md-8 col-sm-12 mx-auto&quot;]/ul[@class=&quot;pl-lg-5 pl-sm-5 list-unstyled text-uppercase p-0&quot;]/li[@class=&quot;py-4 d-inline-block&quot;]</value>
+      <webElementGuid>4d497639-45c6-4f80-94b1-a1af1b350216</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page1']/div/div[2]/div/div/div/ul/li[8]</value>
+      <webElementGuid>53163e2b-0b8e-4729-bb0f-a01b4d2979f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Store Location'])[1]/following::li[8]</value>
+      <webElementGuid>0d412615-568b-4426-9d9b-879917baaa91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find a Store'])[2]/following::li[8]</value>
+      <webElementGuid>5350949b-5bb9-480b-a38f-56f37fb5c382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/preceding::li[3]</value>
+      <webElementGuid>deedbdb0-17d1-424f-94bb-a1a435d318b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Stores'])[1]/preceding::li[3]</value>
+      <webElementGuid>cd803f92-14b7-47b1-b6d6-1ed24c9d212c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div/div/div/ul/li[8]</value>
+      <webElementGuid>5c9de148-4d4a-4259-bda3-592a0c034f3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'THAILAND' or . = 'THAILAND')]</value>
+      <webElementGuid>5319f16b-f2ff-4a58-863e-b2b671898343</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Subject Access Request</name>
+   <tag></tag>
+   <elementGuidId>9f157a9d-1f4e-40a8-b5fc-4953d1670f2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#subject-request-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='subject-request-link']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>69a85949-1b48-4a96-bf62-10b333ed61ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://kohler.service-now.com/gdp/form.do</value>
+      <webElementGuid>efc68859-7348-43de-b166-e62b439bc9de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>04b48f1e-ed91-4459-8b78-7772f90f34aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>subject-request-link</value>
+      <webElementGuid>a97c2ae9-9fcb-4411-95f3-e9d8f6545559</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Subject Access Request</value>
+      <webElementGuid>838a2266-da38-46ea-ab3c-d67c176798d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;subject-request-link&quot;)</value>
+      <webElementGuid>d4be69a2-0af0-4d22-8f54-ee2751245b9c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='subject-request-link']</value>
+      <webElementGuid>d757ae02-4cfd-4b44-b7dc-abbe0bc67b42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Subject Access Request')]</value>
+      <webElementGuid>c984b6a0-f38b-405b-90c6-468a964ae83a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy'])[1]/following::a[2]</value>
+      <webElementGuid>4e829c44-da50-44f0-a3d6-b8f5207f2dad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal'])[1]/following::a[3]</value>
+      <webElementGuid>15528bb5-2379-4ffa-884e-6f55ada9698a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Kohler Co. All Rights Reserved'])[1]/preceding::a[1]</value>
+      <webElementGuid>08d8814f-6e10-4008-858b-279ed42bb9b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compare'])[1]/preceding::a[1]</value>
+      <webElementGuid>820d256f-f705-49ce-9c38-6f0c4dfeee4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Subject Access Request']/parent::*</value>
+      <webElementGuid>0ac3a497-9054-4c88-9a88-55a8614c9281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://kohler.service-now.com/gdp/form.do')]</value>
+      <webElementGuid>aca692f0-ff20-45ca-87f5-4f443282d4ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[4]/a</value>
+      <webElementGuid>ef05a4a4-9a3f-4ef6-937e-b4e669c6c82b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://kohler.service-now.com/gdp/form.do' and @id = 'subject-request-link' and (text() = 'Subject Access Request' or . = 'Subject Access Request')]</value>
+      <webElementGuid>01b67861-7a4a-4e37-a530-aebf61effcfd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

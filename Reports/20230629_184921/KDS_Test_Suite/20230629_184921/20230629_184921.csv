@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KDS_Test_Suite,Chrome 114.0.0.0,,,2023-06-29 18:49:25,2023-06-29 18:54:42,5m - 17.542s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_03_Search_Functionality,Chrome 114.0.0.0,,,2023-06-29 18:49:25,2023-06-29 18:51:45,2m - 19.806s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 18:49:25,2023-06-29 18:49:35,9.507s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 18:49:35,2023-06-29 18:50:42,1m - 7.010s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 18:50:42,2023-06-29 18:50:43,0.772s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search""))",Chrome 114.0.0.0,,,2023-06-29 18:50:43,2023-06-29 18:50:47,4.158s,PASSED
+"setText(findTestObject(""Object Repository/KSD/Page_Product FAQs/input_Project Folder_search""), ""toi"")",Chrome 114.0.0.0,,,2023-06-29 18:50:47,2023-06-29 18:50:50,3.389s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/a_Toilets""))",Chrome 114.0.0.0,,,2023-06-29 18:50:50,2023-06-29 18:51:42,51.960s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Search Results/span_Search Results for Toilets""))",Chrome 114.0.0.0,,,2023-06-29 18:51:42,2023-06-29 18:51:44,1.466s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/span_Search Results for Toilets""))",Chrome 114.0.0.0,,,2023-06-29 18:51:44,2023-06-29 18:51:45,1.152s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_04_Check_Search_Result_page,Chrome 114.0.0.0,,,2023-06-29 18:51:45,2023-06-29 18:54:42,2m - 57.249s,PASSED
+"callTestCase(findTestCase(""KDS/TC_03_Search_Functionality""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-29 18:51:45,2023-06-29 18:54:39,2m - 53.321s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/span_Search Results for Toilets""))",Chrome 114.0.0.0,,,2023-06-29 18:54:39,2023-06-29 18:54:39,0.458s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/span_Products""))",Chrome 114.0.0.0,,,2023-06-29 18:54:39,2023-06-29 18:54:40,0.789s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/span_Technical Specifications""))",Chrome 114.0.0.0,,,2023-06-29 18:54:40,2023-06-29 18:54:40,0.500s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/span_Articles""))",Chrome 114.0.0.0,,,2023-06-29 18:54:40,2023-06-29 18:54:41,0.452s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/div_Choose Category""))",Chrome 114.0.0.0,,,2023-06-29 18:54:41,2023-06-29 18:54:41,0.490s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/a_All Categories (129)""))",Chrome 114.0.0.0,,,2023-06-29 18:54:41,2023-06-29 18:54:42,0.421s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Search Results/a_Relevancy""))",Chrome 114.0.0.0,,,2023-06-29 18:54:42,2023-06-29 18:54:42,0.464s,PASSED

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_OK_fal fa-map-marker-alt</name>
+   <tag></tag>
+   <elementGuidId>70b10c91-427e-4e22-bf6a-0d7dca45cb6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='utility-menus']/ul/li[4]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fal.fa-map-marker-alt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>9dff4e5c-572d-48df-8c26-9410b54779f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>7db4595e-3380-4923-84e1-ccd1e7963ab7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>57a2b13a-8cc0-4541-b9c3-6bfdac81750a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='utility-menus']/ul/li[4]/a/i</value>
+      <webElementGuid>864e723f-5bec-4211-975c-b4c6e4324dac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/i</value>
+      <webElementGuid>9dc1aec9-f375-4cf3-b9c2-e82b7047fa51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

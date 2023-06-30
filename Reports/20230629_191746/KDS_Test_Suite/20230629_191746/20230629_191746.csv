@@ -1,0 +1,104 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KDS_Test_Suite,Chrome 114.0.0.0,,,2023-06-29 19:17:50,2023-06-29 19:45:18,27m - 27.502s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header,Chrome 114.0.0.0,,,2023-06-29 19:17:51,2023-06-29 19:20:09,2m - 17.530s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:17:51,2023-06-29 19:18:01,9.278s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:18:01,2023-06-29 19:18:58,56.961s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:18:58,2023-06-29 19:19:04,6.644s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:19:04,2023-06-29 19:19:10,5.282s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:19:10,2023-06-29 19:20:07,57.134s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb""))",Chrome 114.0.0.0,,,2023-06-29 19:20:07,2023-06-29 19:20:09,1.748s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_15_Find_Store_Brazil_Location,Chrome 114.0.0.0,,,2023-06-29 19:20:09,2023-06-29 19:22:31,2m - 22.662s,PASSED
+"callTestCase(findTestCase(""KDS/TC_14_Check_Find_Store_Link_In_Header""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-29 19:20:09,2023-06-29 19:22:24,2m - 15.044s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_BRAZIL""))",Chrome 114.0.0.0,,,2023-06-29 19:22:24,2023-06-29 19:22:28,4.336s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores""))",Chrome 114.0.0.0,,,2023-06-29 19:22:28,2023-06-29 19:22:30,1.973s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_BRAZIL""))",Chrome 114.0.0.0,,,2023-06-29 19:22:30,2023-06-29 19:22:31,0.614s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-29 19:22:31,2023-06-29 19:22:31,0.238s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_16_Find_Store_CANADA_Location,Chrome 114.0.0.0,,,2023-06-29 19:22:31,2023-06-29 19:24:56,2m - 25.131s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:22:32,2023-06-29 19:22:37,5.582s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:22:37,2023-06-29 19:23:44,1m - 6.760s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:23:44,2023-06-29 19:23:45,0.660s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:23:45,2023-06-29 19:23:49,4.759s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:23:49,2023-06-29 19:24:47,57.847s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h2_Select Store Location""))",Chrome 114.0.0.0,,,2023-06-29 19:24:47,2023-06-29 19:24:49,1.618s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/a_CANADA""))",Chrome 114.0.0.0,,,2023-06-29 19:24:49,2023-06-29 19:24:53,4.603s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores""))",Chrome 114.0.0.0,,,2023-06-29 19:24:53,2023-06-29 19:24:55,2.092s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/span_CANADA""))",Chrome 114.0.0.0,,,2023-06-29 19:24:55,2023-06-29 19:24:56,0.718s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-29 19:24:56,2023-06-29 19:24:56,0.168s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_17_Find_Store_SINGAPORE_Location,Chrome 114.0.0.0,,,2023-06-29 19:24:56,2023-06-29 19:27:42,2m - 45.593s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:24:57,2023-06-29 19:25:03,5.992s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:25:03,2023-06-29 19:26:12,1m - 9.182s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:26:12,2023-06-29 19:26:24,11.739s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:26:24,2023-06-29 19:26:31,7.121s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:26:31,2023-06-29 19:27:31,59.913s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_SINGAPORE""))",Chrome 114.0.0.0,,,2023-06-29 19:27:31,2023-06-29 19:27:40,9.558s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_SINGAPORE""))",Chrome 114.0.0.0,,,2023-06-29 19:27:40,2023-06-29 19:27:42,1.581s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-29 19:27:42,2023-06-29 19:27:42,0.243s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_18_Find_Store_CHINA_Location,Chrome 114.0.0.0,,,2023-06-29 19:27:42,2023-06-29 19:30:08,2m - 26.478s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:27:42,2023-06-29 19:27:48,5.804s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:27:48,2023-06-29 19:28:49,1m - 1.043s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:28:49,2023-06-29 19:28:56,7.230s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:28:56,2023-06-29 19:29:00,3.585s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:29:00,2023-06-29 19:29:57,56.920s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_CHINA""))",Chrome 114.0.0.0,,,2023-06-29 19:29:57,2023-06-29 19:30:06,8.842s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_CHINA""))",Chrome 114.0.0.0,,,2023-06-29 19:30:06,2023-06-29 19:30:08,2.531s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-29 19:30:08,2023-06-29 19:30:08,0.211s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_19_Find_Store_INDIA_Location,Chrome 114.0.0.0,,,2023-06-29 19:30:08,2023-06-29 19:32:37,2m - 28.674s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:30:09,2023-06-29 19:30:15,6.736s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:30:15,2023-06-29 19:31:24,1m - 8.736s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:31:24,2023-06-29 19:31:25,0.806s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:31:25,2023-06-29 19:31:32,6.728s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:31:32,2023-06-29 19:32:28,56.698s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_INDIA""))",Chrome 114.0.0.0,,,2023-06-29 19:32:28,2023-06-29 19:32:35,6.849s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_INDIA""))",Chrome 114.0.0.0,,,2023-06-29 19:32:35,2023-06-29 19:32:37,1.868s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_20_Find_Store_PANAMA_Location,Chrome 114.0.0.0,,,2023-06-29 19:32:37,2023-06-29 19:35:16,2m - 38.841s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:32:37,2023-06-29 19:32:44,6.152s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:32:44,2023-06-29 19:33:51,1m - 7.309s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:33:51,2023-06-29 19:33:59,8.335s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:33:59,2023-06-29 19:34:06,6.337s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:34:06,2023-06-29 19:35:08,1m - 2.674s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_PANAMA""))",Chrome 114.0.0.0,,,2023-06-29 19:35:08,2023-06-29 19:35:12,3.339s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_PANAMA""))",Chrome 114.0.0.0,,,2023-06-29 19:35:12,2023-06-29 19:35:16,4.357s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_21_Find_Store_TAIWAN_Location,Chrome 114.0.0.0,,,2023-06-29 19:35:16,2023-06-29 19:37:43,2m - 26.536s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:35:16,2023-06-29 19:35:22,5.853s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:35:22,2023-06-29 19:36:31,1m - 8.953s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:36:31,2023-06-29 19:36:32,0.932s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:36:32,2023-06-29 19:36:36,3.867s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:36:36,2023-06-29 19:37:34,57.813s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_TAIWAN""))",Chrome 114.0.0.0,,,2023-06-29 19:37:34,2023-06-29 19:37:39,5.314s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_TAIWAN""))",Chrome 114.0.0.0,,,2023-06-29 19:37:39,2023-06-29 19:37:43,3.393s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_22_Find_Store_THAILAND_Location,Chrome 114.0.0.0,,,2023-06-29 19:37:43,2023-06-29 19:40:08,2m - 25.249s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:37:43,2023-06-29 19:37:49,5.755s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:37:49,2023-06-29 19:38:57,1m - 8.648s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:38:57,2023-06-29 19:38:59,1.263s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:38:59,2023-06-29 19:39:04,5.120s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:39:04,2023-06-29 19:39:57,53.059s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/li_THAILAND""))",Chrome 114.0.0.0,,,2023-06-29 19:39:57,2023-06-29 19:40:05,8.242s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND""))",Chrome 114.0.0.0,,,2023-06-29 19:40:05,2023-06-29 19:40:08,2.740s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_23_Find_Store_UNITED_KINGDOM_Location,Chrome 114.0.0.0,,,2023-06-29 19:40:08,2023-06-29 19:42:35,2m - 27.380s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:40:08,2023-06-29 19:40:14,5.934s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:40:14,2023-06-29 19:41:16,1m - 1.415s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:41:16,2023-06-29 19:41:24,8.193s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:41:24,2023-06-29 19:41:28,4.535s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:41:28,2023-06-29 19:42:25,57.005s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_UNITED KINGDOM""))",Chrome 114.0.0.0,,,2023-06-29 19:42:25,2023-06-29 19:42:32,6.371s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED KINGDOM""))",Chrome 114.0.0.0,,,2023-06-29 19:42:32,2023-06-29 19:42:35,3.616s,PASSED
+,,,,,,,
+Test Cases/KDS/TC_24_Find_Store_UNITED_STATES_Location,Chrome 114.0.0.0,,,2023-06-29 19:42:35,2023-06-29 19:45:18,2m - 42.715s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-29 19:42:36,2023-06-29 19:42:42,6.162s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Chrome 114.0.0.0,,,2023-06-29 19:42:42,2023-06-29 19:44:00,1m - 17.794s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-29 19:44:00,2023-06-29 19:44:03,3.419s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Chrome 114.0.0.0,,,2023-06-29 19:44:03,2023-06-29 19:44:09,5.652s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Chrome 114.0.0.0,,,2023-06-29 19:44:09,2023-06-29 19:45:03,54.310s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_UNITED STATES""))",Chrome 114.0.0.0,,,2023-06-29 19:45:03,2023-06-29 19:45:12,9.373s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED STATES""))",Chrome 114.0.0.0,,,2023-06-29 19:45:12,2023-06-29 19:45:17,4.853s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED STATES""))",Chrome 114.0.0.0,,,2023-06-29 19:45:17,2023-06-29 19:45:18,0.757s,PASSED

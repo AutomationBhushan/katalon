@@ -6,16 +6,208 @@
    <elementGuidId>62775145-4d60-4c7b-b900-074298b0c079</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='utility-menus']/ul/li[4]/a/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>i.fal.fa-map-marker-alt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='utility-menus']/ul/li[4]/a/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c8266b8a-dad2-4ff4-ab05-e8eed3329044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>7f3dc5f1-e08f-428d-9aeb-d1af44e7e802</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>9fabd16b-bf04-4e65-873d-9d84c3696c5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5b06809e-1db0-4904-be2e-9e3eb6e8c43e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>6274e964-caa6-48df-9dcd-b67ac0fe7b1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>66e7a5ff-e084-4776-937a-bf2c6990c517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>62d3f7ef-3284-4ca4-8983-45467796627f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>06c90f93-335c-4073-a9c9-d08fa26f24b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>e8b87287-d6a2-4d8e-b796-b789bb035f26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>3ad94695-1b91-4df9-8b2c-274e2bee17d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>7d4bc729-b7f2-49f8-adee-eed68e1745af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>d4d13315-1755-4632-9564-5ca838e87e51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5251ae89-21d3-4464-9726-adae192d2c03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>c65a63a9-473e-4add-8773-c98fcc77cd49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>336b438a-4fbc-4ad2-a7d5-5dcd76eab723</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>2e93c6a2-a3d0-4655-9e9c-0d8b9dc179d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>4f058036-a4ef-4faf-897e-618e46633dd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>383c49ef-4969-4208-bad3-c74e347fb40e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0c3777d8-c017-4f68-80cb-f2720c56cf0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>b32a3eba-ee02-4d6f-9e2e-b258b53b4bb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>72d6b544-a374-40ab-a126-1338d09249eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0189ce8f-47b9-44c8-8741-8842b0bf40d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fal fa-map-marker-alt</value>
+      <webElementGuid>350699d3-0289-4a00-b6e5-0a49bebabd71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;utility-menus&quot;)/ul[@class=&quot;navbar-nav ml-auto&quot;]/li[@class=&quot;nav-item align-self-center&quot;]/a[@class=&quot;nav-link animated-header hover-effect fregular&quot;]/i[@class=&quot;fal fa-map-marker-alt&quot;]</value>
+      <webElementGuid>8974c215-f56a-44f2-8ef8-889213454e49</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +225,7 @@
       <webElementGuid>a4ec8f07-0f43-475d-bd13-1b539be5ecfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -46,7 +238,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='utility-menus']/ul/li[4]/a/i</value>
-      <webElementGuid>73063c98-f9a2-40e2-ae18-05e2c0fb3c98</webElementGuid>
+      <webElementGuid>f27dbc7d-f47a-446b-8051-e1a788e20776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +246,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a/i</value>
-      <webElementGuid>fb048e61-5baa-4c74-930c-5000f839e3fc</webElementGuid>
+      <webElementGuid>826ed020-56d0-4419-af35-38780addb631</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_UNITED STATES</name>
+   <tag></tag>
+   <elementGuidId>6232c9d5-6566-4cef-8fb4-50fa0e26ebd3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.count-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='countryList']/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f51b9752-da7a-4379-9920-dd441642d20e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>count-name</value>
+      <webElementGuid>759548f0-dc9b-407c-bbd3-446244f6257f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UNITED STATES</value>
+      <webElementGuid>b8a01e9f-6c42-4ff7-9ee9-50e5781a2018</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;countryList&quot;)/div[@class=&quot;select-country&quot;]/a[@class=&quot;down-arrow country dropdown-toggle font-weight-normal text-decoration-none d-block py-2&quot;]/span[@class=&quot;count-name&quot;]</value>
+      <webElementGuid>1d98c92b-9256-4815-b412-21e159dcd2bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='countryList']/div/a/span</value>
+      <webElementGuid>f3fb51af-455c-4885-80bd-7497f5403ae8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Stores'])[2]/following::span[1]</value>
+      <webElementGuid>9495bf88-9b18-4929-b32e-2abdde46d0e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Stores'])[1]/following::span[1]</value>
+      <webElementGuid>2e55d295-7c94-4d60-bff0-403a29f1ba79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BRAZIL'])[2]/preceding::span[1]</value>
+      <webElementGuid>2001eea0-87ac-4cfe-9ba0-4ab57e73f039</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANADA'])[2]/preceding::span[2]</value>
+      <webElementGuid>c33f2445-37bb-4202-8a69-074e7bf375ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/span</value>
+      <webElementGuid>06e99cf6-5c4f-4c69-b0c3-5f9ad4cea20a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'UNITED STATES' or . = 'UNITED STATES')]</value>
+      <webElementGuid>9cac9147-c8ad-43a8-adac-93e13bebd873</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

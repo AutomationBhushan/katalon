@@ -1,0 +1,18 @@
+{"testCaseName":"Test Cases/KDS/TC_01_Login","testCaseId":"Test Cases/KDS/TC_01_Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_02_Header_Menu_Check","testCaseId":"Test Cases/KDS/TC_02_Header_Menu_Check","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_03_Search_Functionality","testCaseId":"Test Cases/KDS/TC_03_Search_Functionality","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_04_Check_Search_Result_page","testCaseId":"Test Cases/KDS/TC_04_Check_Search_Result_page","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_05_Cookies_Close","testCaseId":"Test Cases/KDS/TC_05_Cookies_Close","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_06_Select_Project_Location","testCaseId":"Test Cases/KDS/TC_06_Select_Project_Location","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_07_Check_Africa_Location_List","testCaseId":"Test Cases/KDS/TC_07_Check_Africa_Location_List","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_08_Check_AMERICAS_Location_List","testCaseId":"Test Cases/KDS/TC_08_Check_AMERICAS_Location_List","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_09_Check_ASIA_Location_List","testCaseId":"Test Cases/KDS/TC_09_Check_ASIA_Location_List","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_10_Check_AUSTRALASIA_Location_List","testCaseId":"Test Cases/KDS/TC_10_Check_AUSTRALASIA_Location_List","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_11_Check_EUROPE_Location_List","testCaseId":"Test Cases/KDS/TC_11_Check_EUROPE_Location_List","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_12_Check_MIDDLE EAST_Location_List","testCaseId":"Test Cases/KDS/TC_12_Check_MIDDLE EAST_Location_List","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_13_Check_Create_New_Folder","testCaseId":"Test Cases/KDS/TC_13_Check_Create_New_Folder","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header","testCaseId":"Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_15_Find_Store_Brazil_Location","testCaseId":"Test Cases/KDS/TC_15_Find_Store_Brazil_Location","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_16_Find_Store_CANADA_Location","testCaseId":"Test Cases/KDS/TC_16_Find_Store_CANADA_Location","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_17_Find_Store_SINGAPORE_Location","testCaseId":"Test Cases/KDS/TC_17_Find_Store_SINGAPORE_Location","iterationVariableName":""}
+{"testCaseName":"Test Cases/KDS/TC_18_Find_Store_CHINA_Location","testCaseId":"Test Cases/KDS/TC_18_Find_Store_CHINA_Location","iterationVariableName":""}

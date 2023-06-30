@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_UNITED KINGDOM</name>
+   <tag></tag>
+   <elementGuidId>017dd545-cd1e-45ae-a41f-0aeba4470015</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@onclick='getStoreData(this)'])[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0d1559f1-1844-4b4b-a13e-75e49bd345b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>5ec86873-ef3e-4499-90d4-7af0ddcf25c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pb-1</value>
+      <webElementGuid>2642b58e-6b3f-4757-ae74-cc41f5430122</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>getStoreData(this)</value>
+      <webElementGuid>b68e338a-a6b8-4346-8cd9-eae0a030aba9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UNITED KINGDOM</value>
+      <webElementGuid>53d447c5-2d77-4f28-8044-57bb3f165adc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page1&quot;)/div[@class=&quot;find-store kohler-store text-center&quot;]/div[@class=&quot;container find-a-store-map mt-4 pt-2&quot;]/div[@class=&quot;position-relative select-store&quot;]/div[@class=&quot;find-body&quot;]/div[@class=&quot;find-store-list col-lg-8 col-md-8 col-sm-12 mx-auto&quot;]/ul[@class=&quot;pl-lg-5 pl-sm-5 list-unstyled text-uppercase p-0&quot;]/li[@class=&quot;py-4 d-inline-block&quot;]/a[@class=&quot;pb-1&quot;]</value>
+      <webElementGuid>55d01982-cc61-433f-9913-794bc34b05f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick='getStoreData(this)'])[9]</value>
+      <webElementGuid>73bdce5f-b472-4cc1-9823-ba634392dda3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page1']/div/div[2]/div/div/div/ul/li[9]/a</value>
+      <webElementGuid>01e54546-80ad-4f5e-aba9-ecf0d7a80f88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'UNITED KINGDOM')]</value>
+      <webElementGuid>4a8a8434-e560-4dcf-87d3-01b7c9a2fe7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Store Location'])[1]/following::a[9]</value>
+      <webElementGuid>935df41d-3d32-4da4-b201-d974218235fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find a Store'])[2]/following::a[9]</value>
+      <webElementGuid>5f31f62b-26ca-4551-9920-d0cc32b608ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='false'])[1]/preceding::a[4]</value>
+      <webElementGuid>f336a1a7-851c-4fa2-b73f-2909abde1f3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find A Store'])[1]/preceding::a[4]</value>
+      <webElementGuid>46936e5e-e7c4-4357-befe-98c570f00b5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='UNITED KINGDOM']/parent::*</value>
+      <webElementGuid>38e4d75f-35ec-4c78-a1a1-a2bd52b4b981</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[234]</value>
+      <webElementGuid>ed9577f5-51b0-485e-9bff-6c0c1c8a4f88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div/div/div/ul/li[9]/a</value>
+      <webElementGuid>914843b3-628a-40ec-8202-7d145ca01891</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'UNITED KINGDOM' or . = 'UNITED KINGDOM')]</value>
+      <webElementGuid>3d89cffa-b010-4b87-91fe-d827ce24c711</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
