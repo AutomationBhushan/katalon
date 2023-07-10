@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KDS_Smoke_Suite,,,,2023-07-01 21:07:42,2023-07-01 21:34:51,27m - 8.974s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_01_Login,,,,2023-07-01 21:09:45,2023-07-01 21:10:45,1m - 0.137s,FAILED
+"openBrowser("""")",,,,2023-07-01 21:09:45,2023-07-01 21:10:45,1m - 0.091s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_02_Header_Menu_Check,,,,2023-07-01 21:13:46,2023-07-01 21:14:46,1m - 0.179s,FAILED
+"openBrowser("""")",,,,2023-07-01 21:13:46,2023-07-01 21:14:46,1m - 0.104s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_03_Search_Functionality,,,,2023-07-01 21:17:47,2023-07-01 21:18:47,1m - 0.155s,FAILED
+"openBrowser("""")",,,,2023-07-01 21:17:47,2023-07-01 21:18:47,1m - 0.120s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_05_Cookies_Close,,,,2023-07-01 21:21:48,2023-07-01 21:22:48,1m - 0.156s,FAILED
+"openBrowser("""")",,,,2023-07-01 21:21:48,2023-07-01 21:22:48,1m - 0.105s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_06_Select_Project_Location,,,,2023-07-01 21:25:49,2023-07-01 21:26:49,1m - 0.140s,FAILED
+"openBrowser("""")",,,,2023-07-01 21:25:49,2023-07-01 21:26:49,1m - 0.092s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header,,,,2023-07-01 21:29:50,2023-07-01 21:30:50,1m - 0.175s,FAILED
+"openBrowser("""")",,,,2023-07-01 21:29:50,2023-07-01 21:30:50,1m - 0.136s,FAILED
+,,,,,,,
+Test Cases/KDS/TC_25_ Footer_Press_Room_Link,,,,2023-07-01 21:33:51,2023-07-01 21:34:51,1m - 0.133s,FAILED
+"openBrowser("""")",,,,2023-07-01 21:33:51,2023-07-01 21:34:51,1m - 0.099s,FAILED
