@@ -49,5 +49,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FA
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/img_OK_black-version logo_js'))
 
+WebUI.takeScreenshotAsCheckpoint('Header Menu')
+
 WebUI.closeBrowser()
 

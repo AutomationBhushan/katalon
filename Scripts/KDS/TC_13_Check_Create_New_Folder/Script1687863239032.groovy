@@ -45,5 +45,7 @@ WebUI.click(findTestObject('Object Repository/KSD/Page_Project Folder Landing Pa
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_test folder'), 
     0)
 
+WebUI.takeScreenshotAsCheckpoint('Create New Folder')
+
 WebUI.closeBrowser()
 

@@ -29,5 +29,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FA
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Zambia'))
 
+WebUI.takeScreenshotAsCheckpoint('Aftica Loaction')
+
 WebUI.closeBrowser()
 

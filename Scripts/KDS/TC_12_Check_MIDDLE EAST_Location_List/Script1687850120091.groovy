@@ -29,5 +29,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FA
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_United Arab Emirates'))
 
+WebUI.takeScreenshotAsCheckpoint('Middle East Location')
+
 WebUI.closeBrowser()
 

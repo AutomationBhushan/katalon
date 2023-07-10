@@ -33,3 +33,5 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Search Res
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Search Results/a_Relevancy'))
 
+WebUI.takeScreenshotAsCheckpoint('Search Result')
+

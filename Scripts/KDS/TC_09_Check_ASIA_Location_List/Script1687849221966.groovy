@@ -25,5 +25,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FA
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Hong Kong, China'))
 
+WebUI.takeScreenshotAsCheckpoint('Asia Location')
+
 WebUI.closeBrowser()
 

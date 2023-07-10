@@ -23,5 +23,7 @@ WebUI.click(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Europe'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_United Kingdom'))
 
+WebUI.takeScreenshotAsCheckpoint('Europe Location')
+
 WebUI.closeBrowser()
 

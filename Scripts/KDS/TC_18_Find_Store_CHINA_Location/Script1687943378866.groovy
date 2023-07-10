@@ -31,5 +31,7 @@ WebUI.click(findTestObject('Object Repository/KSD/Page_Find a KOHLER Store  Stud
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_CHINA'))
 
+WebUI.takeScreenshotAsCheckpoint('Find a Store China Location')
+
 WebUI.closeBrowser()
 

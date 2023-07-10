@@ -33,3 +33,5 @@ WebUI.click(findTestObject('Object Repository/KSD/Page_Product FAQs/button_Sign 
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Bhushan'))
 
+WebUI.takeScreenshotAsCheckpoint('Lgin')
+

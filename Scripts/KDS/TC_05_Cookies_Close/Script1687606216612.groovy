@@ -27,5 +27,7 @@ WebUI.click(findTestObject('Object Repository/KSD/Page_Product FAQs/div_Cookie P
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a'))
 
+WebUI.takeScreenshotAsCheckpoint('Cookies Section')
+
 WebUI.closeBrowser()
 

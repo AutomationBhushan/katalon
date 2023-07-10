@@ -27,5 +27,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FA
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Product FAQs/a_Costa Rica'))
 
+WebUI.takeScreenshotAsCheckpoint('America Lication')
+
 WebUI.closeBrowser()
 

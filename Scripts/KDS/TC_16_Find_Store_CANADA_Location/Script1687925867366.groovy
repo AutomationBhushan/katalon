@@ -35,5 +35,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Find a KOH
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/span_CANADA'))
 
+WebUI.takeScreenshotAsCheckpoint('Find a Store Canada Location')
+
 WebUI.closeBrowser()
 

@@ -31,3 +31,5 @@ WebUI.click(findTestObject('Object Repository/KSD/Page_Find a KOHLER Store  Stud
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_PANAMA'))
 
+WebUI.takeScreenshotAsCheckpoint('Find a store Panama Location')
+
