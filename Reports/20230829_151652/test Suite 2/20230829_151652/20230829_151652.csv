@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test Suite 2,,,,2023-08-29 15:17:01,2023-08-29 15:17:05,3.668s,FAILED
+,,,,,,,
+Test Cases/KDS_TC/TC_16_Find_Store_CANADA_Location,,,,2023-08-29 15:17:03,2023-08-29 15:17:04,0.186s,FAILED
+"openBrowser("""")",,,,2023-08-29 15:17:03,2023-08-29 15:17:04,0.155s,FAILED
+,,,,,,,
+Test Cases/KDS_TC/TC_20_Find_Store_PANAMA_Location,,,,2023-08-29 15:17:05,2023-08-29 15:17:05,0.121s,FAILED
+"openBrowser("""")",,,,2023-08-29 15:17:05,2023-08-29 15:17:05,0.096s,FAILED
