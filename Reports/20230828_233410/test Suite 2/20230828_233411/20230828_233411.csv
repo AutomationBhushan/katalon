@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test Suite 2,Firefox 109.0,,,2023-08-28 23:34:22,2023-08-28 23:35:02,39.954s,PASSED
+,,,,,,,
+Test Cases/KDS_TC/TC_16_Find_Store_CANADA_Location,Firefox 109.0,,,2023-08-28 23:34:22,2023-08-28 23:34:44,21.781s,PASSED
+"openBrowser("""")",Firefox 109.0,,,2023-08-28 23:34:23,2023-08-28 23:34:26,3.449s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Firefox 109.0,,,2023-08-28 23:34:26,2023-08-28 23:34:32,6.299s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-08-28 23:34:32,2023-08-28 23:34:33,0.536s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/button_Accept All Cookies""))",Firefox 109.0,,,2023-08-28 23:34:33,2023-08-28 23:34:35,2.057s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Firefox 109.0,,,2023-08-28 23:34:35,2023-08-28 23:34:40,4.875s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h2_Select Store Location""))",Firefox 109.0,,,2023-08-28 23:34:40,2023-08-28 23:34:41,1.057s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/a_CANADA""))",Firefox 109.0,,,2023-08-28 23:34:41,2023-08-28 23:34:41,0.484s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores""))",Firefox 109.0,,,2023-08-28 23:34:41,2023-08-28 23:34:42,0.842s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/span_CANADA""))",Firefox 109.0,,,2023-08-28 23:34:42,2023-08-28 23:34:42,0.319s,PASSED
+"takeScreenshotAsCheckpoint(""Find a Store Canada Location"")",Firefox 109.0,,,2023-08-28 23:34:42,2023-08-28 23:34:43,1.027s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-08-28 23:34:43,2023-08-28 23:34:44,0.466s,PASSED
+,,,,,,,
+Test Cases/KDS_TC/TC_20_Find_Store_PANAMA_Location,Firefox 109.0,,,2023-08-28 23:34:44,2023-08-28 23:35:02,17.734s,PASSED
+"openBrowser("""")",Firefox 109.0,,,2023-08-28 23:34:44,2023-08-28 23:34:46,2.057s,PASSED
+"navigateToUrl(""https://www.studiokohler.com/en-us/faqs"")",Firefox 109.0,,,2023-08-28 23:34:46,2023-08-28 23:34:51,5.035s,PASSED
+maximizeWindow(),Firefox 109.0,,,2023-08-28 23:34:51,2023-08-28 23:34:52,0.502s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies""))",Firefox 109.0,,,2023-08-28 23:34:52,2023-08-28 23:34:53,1.368s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt""))",Firefox 109.0,,,2023-08-28 23:34:53,2023-08-28 23:34:59,5.611s,PASSED
+"click(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_PANAMA""))",Firefox 109.0,,,2023-08-28 23:34:59,2023-08-28 23:35:00,1.154s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_PANAMA""))",Firefox 109.0,,,2023-08-28 23:35:00,2023-08-28 23:35:01,0.823s,PASSED
+"takeScreenshotAsCheckpoint(""Find a store Panama Location"")",Firefox 109.0,,,2023-08-28 23:35:01,2023-08-28 23:35:02,0.966s,PASSED

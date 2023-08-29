@@ -1,0 +1,2455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KDS Test Suite Collection" time="878.836" tests="35" failures="2" errors="0">
+   <testsuite name="KDS_Smoke_Suite" tests="7" failures="0" errors="0" time="129.798" skipped="0" timestamp="2023-07-11 00:05:36" hostname="bhushan - 192.168.1.13" id="Test Suites/KDS_Smoke_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Smoke_Suite/20230711_000529"/>
+         <property name="logFiles" value="/Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Smoke_Suite/20230711_000529/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-Lgin.png, keyes/keyes-Header Menu.png, keyes/keyes-Cookies Section.png"/>
+         <property name="hostName" value="bhushan - 192.168.1.13"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Firefox 109.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="4d2f9a72-b473-4e09-8f72-5d21bff2ded2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/KDS/TC_01_Login" time="28.384" classname="Test Cases/KDS/TC_01_Login" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:05:36 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_01_Login: Test Cases/KDS/TC_01_Login
+
+2023-07-11 00:05:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:05:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:05:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:05:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:05:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:05:51 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:05:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:05:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is clicked on
+
+2023-07-11 00:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is clicked on
+
+2023-07-11 00:05:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email"), "Bhushan.borse@kohler.com"): Text 'Bhushan.borse@kohler.com' is set on object 'Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email'
+
+2023-07-11 00:05:54 - [MESSAGE][PASSED] - Text 'Bhushan.borse@kohler.com' is set on object 'Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email'
+
+2023-07-11 00:05:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password"), "UkTT/T5uWxEyt5z+WbCT2w=="): Text ****** has been set on object 'Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password'
+
+2023-07-11 00:05:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password'
+
+2023-07-11 00:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Sign In")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Sign In' is clicked on
+
+2023-07-11 00:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Sign In' is clicked on
+
+2023-07-11 00:05:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Bhushan")): Object 'Object Repository/KSD/Page_Product FAQs/a_Bhushan' is visible
+
+2023-07-11 00:06:03 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Bhushan' is visible
+
+2023-07-11 00:06:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Lgin"): Taking screenshot successfully
+
+2023-07-11 00:06:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:06:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Lgin.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_02_Header_Menu_Check" time="16.715" classname="Test Cases/KDS/TC_02_Header_Menu_Check" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:06:05 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_02_Header_Menu_Check: Test Cases/KDS/TC_02_Header_Menu_Check
+
+2023-07-11 00:06:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:06:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:06:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:06:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:06:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:06:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:06:13 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:06:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:06:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:06:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Products")): Object 'Object Repository/KSD/Page_Product FAQs/a_Products' is visible
+
+2023-07-11 00:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Products' is visible
+
+2023-07-11 00:06:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Resources")): Object 'Object Repository/KSD/Page_Product FAQs/a_Resources' is visible
+
+2023-07-11 00:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Resources' is visible
+
+2023-07-11 00:06:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Services")): Object 'Object Repository/KSD/Page_Product FAQs/a_Services' is visible
+
+2023-07-11 00:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Services' is visible
+
+2023-07-11 00:06:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Inspiration")): Object 'Object Repository/KSD/Page_Product FAQs/a_Inspiration' is visible
+
+2023-07-11 00:06:17 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Inspiration' is visible
+
+2023-07-11 00:06:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_OK")): Object: 'Object Repository/KSD/Page_Product FAQs/button_OK' is clicked on
+
+2023-07-11 00:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_OK' is clicked on
+
+2023-07-11 00:06:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Events")): Object 'Object Repository/KSD/Page_Product FAQs/a_Events' is visible
+
+2023-07-11 00:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Events' is visible
+
+2023-07-11 00:06:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_About")): Object 'Object Repository/KSD/Page_Product FAQs/a_About' is visible
+
+2023-07-11 00:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_About' is visible
+
+2023-07-11 00:06:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object 'Object Repository/KSD/Page_Product FAQs/a_India' is visible
+
+2023-07-11 00:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_India' is visible
+
+2023-07-11 00:06:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-folder")): Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-folder' is visible
+
+2023-07-11 00:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-folder' is visible
+
+2023-07-11 00:06:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is visible
+
+2023-07-11 00:06:19 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is visible
+
+2023-07-11 00:06:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user")): Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is visible
+
+2023-07-11 00:06:19 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is visible
+
+2023-07-11 00:06:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search")): Object 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is visible
+
+2023-07-11 00:06:20 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is visible
+
+2023-07-11 00:06:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/img_OK_black-version logo_js")): Object 'Object Repository/KSD/Page_Product FAQs/img_OK_black-version logo_js' is visible
+
+2023-07-11 00:06:20 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/img_OK_black-version logo_js' is visible
+
+2023-07-11 00:06:20 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Header Menu"): Taking screenshot successfully
+
+2023-07-11 00:06:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:06:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Header Menu.png]]
+
+2023-07-11 00:06:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:06:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_03_Search_Functionality" time="23.28" classname="Test Cases/KDS/TC_03_Search_Functionality" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:06:22 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_03_Search_Functionality: Test Cases/KDS/TC_03_Search_Functionality
+
+2023-07-11 00:06:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:06:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:06:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:06:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:06:24 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:06:30 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:06:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:06:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search")): Object: 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is clicked on
+
+2023-07-11 00:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is clicked on
+
+2023-07-11 00:06:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_Project Folder_search"), "toi"): Text 'toi' is set on object 'Object Repository/KSD/Page_Product FAQs/input_Project Folder_search'
+
+2023-07-11 00:06:32 - [MESSAGE][PASSED] - Text 'toi' is set on object 'Object Repository/KSD/Page_Product FAQs/input_Project Folder_search'
+
+2023-07-11 00:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Toilets")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Toilets' is clicked on
+
+2023-07-11 00:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Toilets' is clicked on
+
+2023-07-11 00:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Search Results/span_Search Results for Toilets")): Object: 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is clicked on
+
+2023-07-11 00:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is clicked on
+
+2023-07-11 00:06:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/span_Search Results for Toilets")): Object 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is visible
+
+2023-07-11 00:06:45 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_05_Cookies_Close" time="11.846" classname="Test Cases/KDS/TC_05_Cookies_Close" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:06:45 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_05_Cookies_Close: Test Cases/KDS/TC_05_Cookies_Close
+
+2023-07-11 00:06:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:06:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:06:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:06:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:06:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:06:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:06:52 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:06:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:06:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a' is clicked on
+
+2023-07-11 00:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a' is clicked on
+
+2023-07-11 00:06:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a")): Object 'Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a' is visible
+
+2023-07-11 00:06:55 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a' is visible
+
+2023-07-11 00:06:55 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Cookies Section"): Taking screenshot successfully
+
+2023-07-11 00:06:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:06:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Cookies Section.png]]
+
+2023-07-11 00:06:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:06:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_06_Select_Project_Location" time="14.936" classname="Test Cases/KDS/TC_06_Select_Project_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:06:57 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_06_Select_Project_Location: Test Cases/KDS/TC_06_Select_Project_Location
+
+2023-07-11 00:06:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:06:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:06:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:06:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:06:59 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:07:07 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:07:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:07:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:07:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Select Project Location")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:07:10 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:07:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:07:10 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:07:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:07:10 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:07:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:07:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:07:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:07:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:07:12 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header" time="16.071" classname="Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:07:12 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header: Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header
+
+2023-07-11 00:07:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:07:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:07:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:07:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:07:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:07:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:07:19 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:07:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:07:20 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:07:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb")): Object 'Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb' is visible
+
+2023-07-11 00:07:28 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_25_ Footer_Press_Room_Link" time="17.952" classname="Test Cases/KDS/TC_25_ Footer_Press_Room_Link" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:07:28 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_25_ Footer_Press_Room_Link: Test Cases/KDS/TC_25_ Footer_Press_Room_Link
+
+2023-07-11 00:07:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:07:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:07:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:07:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:07:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:07:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:07:36 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:07:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:07:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:07:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:07:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Press Room")): Object 'Object Repository/KSD/Page_Product FAQs/a_Press Room' is visible
+
+2023-07-11 00:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Press Room' is visible
+
+2023-07-11 00:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Press Room")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Press Room' is clicked on
+
+2023-07-11 00:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Press Room' is clicked on
+
+2023-07-11 00:07:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Press Room/h1_Press Room")): Object 'Object Repository/KSD/Page_Press Room/h1_Press Room' is visible
+
+2023-07-11 00:07:46 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Press Room/h1_Press Room' is visible
+
+2023-07-11 00:07:46 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.studiokohler.com/en-us/pressroom'
+
+2023-07-11 00:07:46 - [MESSAGE][PASSED] - Current window's url is: 'https://www.studiokohler.com/en-us/pressroom']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-11 00:05:36 - [TEST_SUITE][PASSED] - KDS_Smoke_Suite: Test Cases/KDS/TC_25_ Footer_Press_Room_Link]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="KDS_Test_Suite" tests="28" failures="2" errors="0" time="750.823" skipped="0" timestamp="2023-07-11 00:07:37" hostname="bhushan - 192.168.1.13" id="Test Suites/KDS_Test_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531"/>
+         <property name="logFiles" value="/Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-Lgin.png, keyes/keyes-Header Menu.png, keyes/keyes-Search Result.png, keyes/keyes-Cookies Section.png, keyes/keyes-Aftica Loaction.png, keyes/keyes-America Lication.png, keyes/keyes-Asia Location.png, keyes/keyes-Australasia Location.png, keyes/keyes-Europe Location.png, keyes/keyes-Middle East Location.png, keyes/keyes-Lgin.png, keyes/keyes-Lgin.png, keyes/keyes-Lgin.png, keyes/keyes-Lgin.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014688133.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014688268.png, keyes/keyes-Find a Store Brazil Location.png, keyes/keyes-Find a Store Canada Location.png, keyes/keyes-Find a Store Singapore Location.png, keyes/keyes-Find a Store China Location.png, keyes/keyes-Find a Store india Location.png, keyes/keyes-Find a store Panama Location.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014842025.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014842276.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014860440.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014860692.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014877221.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014877433.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014894390.png, /Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014894608.png"/>
+         <property name="hostName" value="bhushan - 192.168.1.13"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Firefox 109.0"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="3199cd3c-701c-4d94-a135-572fdb6261fb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/KDS/TC_01_Login" time="27.468" classname="Test Cases/KDS/TC_01_Login" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:07:37 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_01_Login: Test Cases/KDS/TC_01_Login
+
+2023-07-11 00:07:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:07:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:07:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:07:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:07:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:07:52 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:07:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:07:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:07:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is clicked on
+
+2023-07-11 00:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is clicked on
+
+2023-07-11 00:07:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email"), "Bhushan.borse@kohler.com"): Text 'Bhushan.borse@kohler.com' is set on object 'Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email'
+
+2023-07-11 00:07:54 - [MESSAGE][PASSED] - Text 'Bhushan.borse@kohler.com' is set on object 'Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email'
+
+2023-07-11 00:07:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password"), "UkTT/T5uWxEyt5z+WbCT2w=="): Text ****** has been set on object 'Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password'
+
+2023-07-11 00:07:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password'
+
+2023-07-11 00:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Sign In")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Sign In' is clicked on
+
+2023-07-11 00:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Sign In' is clicked on
+
+2023-07-11 00:07:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Bhushan")): Object 'Object Repository/KSD/Page_Product FAQs/a_Bhushan' is visible
+
+2023-07-11 00:08:03 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Bhushan' is visible
+
+2023-07-11 00:08:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Lgin"): Taking screenshot successfully
+
+2023-07-11 00:08:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:08:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Lgin.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_02_Header_Menu_Check" time="16.511" classname="Test Cases/KDS/TC_02_Header_Menu_Check" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:08:05 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_02_Header_Menu_Check: Test Cases/KDS/TC_02_Header_Menu_Check
+
+2023-07-11 00:08:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:08:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:08:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:08:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:08:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:08:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:08:14 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:08:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:08:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:08:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Products")): Object 'Object Repository/KSD/Page_Product FAQs/a_Products' is visible
+
+2023-07-11 00:08:15 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Products' is visible
+
+2023-07-11 00:08:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Resources")): Object 'Object Repository/KSD/Page_Product FAQs/a_Resources' is visible
+
+2023-07-11 00:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Resources' is visible
+
+2023-07-11 00:08:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Services")): Object 'Object Repository/KSD/Page_Product FAQs/a_Services' is visible
+
+2023-07-11 00:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Services' is visible
+
+2023-07-11 00:08:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Inspiration")): Object 'Object Repository/KSD/Page_Product FAQs/a_Inspiration' is visible
+
+2023-07-11 00:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Inspiration' is visible
+
+2023-07-11 00:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_OK")): Object: 'Object Repository/KSD/Page_Product FAQs/button_OK' is clicked on
+
+2023-07-11 00:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_OK' is clicked on
+
+2023-07-11 00:08:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Events")): Object 'Object Repository/KSD/Page_Product FAQs/a_Events' is visible
+
+2023-07-11 00:08:17 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Events' is visible
+
+2023-07-11 00:08:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_About")): Object 'Object Repository/KSD/Page_Product FAQs/a_About' is visible
+
+2023-07-11 00:08:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_About' is visible
+
+2023-07-11 00:08:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object 'Object Repository/KSD/Page_Product FAQs/a_India' is visible
+
+2023-07-11 00:08:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_India' is visible
+
+2023-07-11 00:08:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-folder")): Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-folder' is visible
+
+2023-07-11 00:08:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-folder' is visible
+
+2023-07-11 00:08:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is visible
+
+2023-07-11 00:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is visible
+
+2023-07-11 00:08:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user")): Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is visible
+
+2023-07-11 00:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is visible
+
+2023-07-11 00:08:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search")): Object 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is visible
+
+2023-07-11 00:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is visible
+
+2023-07-11 00:08:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/img_OK_black-version logo_js")): Object 'Object Repository/KSD/Page_Product FAQs/img_OK_black-version logo_js' is visible
+
+2023-07-11 00:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/img_OK_black-version logo_js' is visible
+
+2023-07-11 00:08:20 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Header Menu"): Taking screenshot successfully
+
+2023-07-11 00:08:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:08:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Header Menu.png]]
+
+2023-07-11 00:08:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:08:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_03_Search_Functionality" time="17.127" classname="Test Cases/KDS/TC_03_Search_Functionality" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:08:21 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_03_Search_Functionality: Test Cases/KDS/TC_03_Search_Functionality
+
+2023-07-11 00:08:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:08:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:08:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:08:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:08:24 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:08:29 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:08:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:08:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search")): Object: 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is clicked on
+
+2023-07-11 00:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is clicked on
+
+2023-07-11 00:08:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_Project Folder_search"), "toi"): Text 'toi' is set on object 'Object Repository/KSD/Page_Product FAQs/input_Project Folder_search'
+
+2023-07-11 00:08:32 - [MESSAGE][PASSED] - Text 'toi' is set on object 'Object Repository/KSD/Page_Product FAQs/input_Project Folder_search'
+
+2023-07-11 00:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Toilets")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Toilets' is clicked on
+
+2023-07-11 00:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Toilets' is clicked on
+
+2023-07-11 00:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Search Results/span_Search Results for Toilets")): Object: 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is clicked on
+
+2023-07-11 00:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is clicked on
+
+2023-07-11 00:08:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/span_Search Results for Toilets")): Object 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is visible
+
+2023-07-11 00:08:39 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_04_Check_Search_Result_page" time="21.0" classname="Test Cases/KDS/TC_04_Check_Search_Result_page" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:08:39 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_04_Check_Search_Result_page: Test Cases/KDS/TC_04_Check_Search_Result_page
+
+2023-07-11 00:08:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_03_Search_Functionality"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_03_Search_Functionality' successfully
+
+2023-07-11 00:08:39 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_03_Search_Functionality: Test Cases/KDS/TC_03_Search_Functionality
+
+2023-07-11 00:08:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:08:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:08:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:08:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:08:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:08:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:08:48 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:08:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:08:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:08:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search")): Object: 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is clicked on
+
+2023-07-11 00:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_Project Folder_fal fa-search' is clicked on
+
+2023-07-11 00:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_Project Folder_search"), "toi"): Text 'toi' is set on object 'Object Repository/KSD/Page_Product FAQs/input_Project Folder_search'
+
+2023-07-11 00:08:50 - [MESSAGE][PASSED] - Text 'toi' is set on object 'Object Repository/KSD/Page_Product FAQs/input_Project Folder_search'
+
+2023-07-11 00:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Toilets")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Toilets' is clicked on
+
+2023-07-11 00:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Toilets' is clicked on
+
+2023-07-11 00:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Search Results/span_Search Results for Toilets")): Object: 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is clicked on
+
+2023-07-11 00:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is clicked on
+
+2023-07-11 00:08:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/span_Search Results for Toilets")): Object 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is visible
+
+2023-07-11 00:08:56 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is visible
+
+2023-07-11 00:08:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_03_Search_Functionality' successfully
+
+2023-07-11 00:08:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/span_Search Results for Toilets")): Object 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is visible
+
+2023-07-11 00:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/span_Search Results for Toilets' is visible
+
+2023-07-11 00:08:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/span_Products")): Object 'Object Repository/KSD/Page_Search Results/span_Products' is visible
+
+2023-07-11 00:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/span_Products' is visible
+
+2023-07-11 00:08:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/span_Technical Specifications")): Object 'Object Repository/KSD/Page_Search Results/span_Technical Specifications' is visible
+
+2023-07-11 00:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/span_Technical Specifications' is visible
+
+2023-07-11 00:08:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/span_Articles")): Object 'Object Repository/KSD/Page_Search Results/span_Articles' is visible
+
+2023-07-11 00:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/span_Articles' is visible
+
+2023-07-11 00:08:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/div_Choose Category")): Object 'Object Repository/KSD/Page_Search Results/div_Choose Category' is visible
+
+2023-07-11 00:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/div_Choose Category' is visible
+
+2023-07-11 00:08:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/a_All Categories (129)")): Object 'Object Repository/KSD/Page_Search Results/a_All Categories (129)' is visible
+
+2023-07-11 00:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/a_All Categories (129)' is visible
+
+2023-07-11 00:08:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Search Results/a_Relevancy")): Object 'Object Repository/KSD/Page_Search Results/a_Relevancy' is visible
+
+2023-07-11 00:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Search Results/a_Relevancy' is visible
+
+2023-07-11 00:08:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Search Result"): Taking screenshot successfully
+
+2023-07-11 00:08:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:09:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Search Result.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_05_Cookies_Close" time="12.343" classname="Test Cases/KDS/TC_05_Cookies_Close" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:09:00 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_05_Cookies_Close: Test Cases/KDS/TC_05_Cookies_Close
+
+2023-07-11 00:09:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:09:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:09:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:09:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:09:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:09:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:09:08 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:09:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:09:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a' is clicked on
+
+2023-07-11 00:09:10 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a' is clicked on
+
+2023-07-11 00:09:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a")): Object 'Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a' is visible
+
+2023-07-11 00:09:10 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/div_Cookie PreferencesCookies may be used o_f66e1a' is visible
+
+2023-07-11 00:09:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Cookies Section"): Taking screenshot successfully
+
+2023-07-11 00:09:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:09:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Cookies Section.png]]
+
+2023-07-11 00:09:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:09:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_06_Select_Project_Location" time="13.971" classname="Test Cases/KDS/TC_06_Select_Project_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:09:12 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_06_Select_Project_Location: Test Cases/KDS/TC_06_Select_Project_Location
+
+2023-07-11 00:09:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:09:12 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:09:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:09:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:09:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:09:21 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:09:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:09:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:09:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Select Project Location")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:09:24 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:09:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:09:24 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:09:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:09:24 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:09:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:09:25 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:09:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:09:25 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:09:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:09:26 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:09:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:09:26 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_07_Check_Africa_Location_List" time="15.766" classname="Test Cases/KDS/TC_07_Check_Africa_Location_List" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:09:26 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_07_Check_Africa_Location_List: Test Cases/KDS/TC_07_Check_Africa_Location_List
+
+2023-07-11 00:09:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_06_Select_Project_Location"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:09:26 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_06_Select_Project_Location: Test Cases/KDS/TC_06_Select_Project_Location
+
+2023-07-11 00:09:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:09:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:09:27 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:09:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:09:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:09:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:09:33 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:09:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:09:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:09:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Select Project Location")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:09:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:09:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:09:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:09:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:09:38 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:09:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:09:38 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:09:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:09:38 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:09:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Africa' is clicked on
+
+2023-07-11 00:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Africa' is clicked on
+
+2023-07-11 00:09:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/li_Angola")): Object 'Object Repository/KSD/Page_Product FAQs/li_Angola' is visible
+
+2023-07-11 00:09:39 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/li_Angola' is visible
+
+2023-07-11 00:09:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Botswana")): Object 'Object Repository/KSD/Page_Product FAQs/a_Botswana' is visible
+
+2023-07-11 00:09:40 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Botswana' is visible
+
+2023-07-11 00:09:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Cabo Verde")): Object 'Object Repository/KSD/Page_Product FAQs/a_Cabo Verde' is visible
+
+2023-07-11 00:09:40 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Cabo Verde' is visible
+
+2023-07-11 00:09:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Zambia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Zambia' is visible
+
+2023-07-11 00:09:40 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Zambia' is visible
+
+2023-07-11 00:09:40 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Aftica Loaction"): Taking screenshot successfully
+
+2023-07-11 00:09:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:09:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Aftica Loaction.png]]
+
+2023-07-11 00:09:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:09:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_08_Check_AMERICAS_Location_List" time="22.646" classname="Test Cases/KDS/TC_08_Check_AMERICAS_Location_List" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:09:42 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_08_Check_AMERICAS_Location_List: Test Cases/KDS/TC_08_Check_AMERICAS_Location_List
+
+2023-07-11 00:09:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_06_Select_Project_Location"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:09:42 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_06_Select_Project_Location: Test Cases/KDS/TC_06_Select_Project_Location
+
+2023-07-11 00:09:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:09:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:09:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:09:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:09:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:09:56 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:09:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:09:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:09:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:09:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Select Project Location")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:10:00 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:10:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:10:00 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:10:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:10:00 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:10:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:10:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:10:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:10:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:10:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Americas' is clicked on
+
+2023-07-11 00:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Americas' is clicked on
+
+2023-07-11 00:10:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/li_Antigua and Barbuda")): Object 'Object Repository/KSD/Page_Product FAQs/li_Antigua and Barbuda' is visible
+
+2023-07-11 00:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/li_Antigua and Barbuda' is visible
+
+2023-07-11 00:10:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Brazil")): Object 'Object Repository/KSD/Page_Product FAQs/a_Brazil' is visible
+
+2023-07-11 00:10:03 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Brazil' is visible
+
+2023-07-11 00:10:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Costa Rica")): Object 'Object Repository/KSD/Page_Product FAQs/a_Costa Rica' is visible
+
+2023-07-11 00:10:03 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Costa Rica' is visible
+
+2023-07-11 00:10:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("America Lication"): Taking screenshot successfully
+
+2023-07-11 00:10:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:10:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-America Lication.png]]
+
+2023-07-11 00:10:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:10:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_09_Check_ASIA_Location_List" time="15.575" classname="Test Cases/KDS/TC_09_Check_ASIA_Location_List" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:10:04 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_09_Check_ASIA_Location_List: Test Cases/KDS/TC_09_Check_ASIA_Location_List
+
+2023-07-11 00:10:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_06_Select_Project_Location"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:10:05 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_06_Select_Project_Location: Test Cases/KDS/TC_06_Select_Project_Location
+
+2023-07-11 00:10:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:10:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:10:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:10:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:10:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:10:12 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:10:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:10:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:10:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Select Project Location")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:10:15 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:10:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:10:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:10:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:10:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:10:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:10:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:10:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:10:17 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:10:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:10:17 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:10:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:10:17 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:10:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Asia' is clicked on
+
+2023-07-11 00:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Asia' is clicked on
+
+2023-07-11 00:10:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Bangladesh")): Object 'Object Repository/KSD/Page_Product FAQs/a_Bangladesh' is visible
+
+2023-07-11 00:10:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Bangladesh' is visible
+
+2023-07-11 00:10:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Hong Kong, China")): Object 'Object Repository/KSD/Page_Product FAQs/a_Hong Kong, China' is visible
+
+2023-07-11 00:10:18 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Hong Kong, China' is visible
+
+2023-07-11 00:10:18 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Asia Location"): Taking screenshot successfully
+
+2023-07-11 00:10:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:10:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Asia Location.png]]
+
+2023-07-11 00:10:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:10:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_10_Check_AUSTRALASIA_Location_List" time="16.761" classname="Test Cases/KDS/TC_10_Check_AUSTRALASIA_Location_List" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:10:20 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_10_Check_AUSTRALASIA_Location_List: Test Cases/KDS/TC_10_Check_AUSTRALASIA_Location_List
+
+2023-07-11 00:10:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_06_Select_Project_Location"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:10:20 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_06_Select_Project_Location: Test Cases/KDS/TC_06_Select_Project_Location
+
+2023-07-11 00:10:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:10:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:10:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:10:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:10:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:10:30 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:10:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:10:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:10:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:10:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Select Project Location")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:10:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:10:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:10:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:10:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:10:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:10:34 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:10:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:10:34 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:10:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:10:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is clicked on
+
+2023-07-11 00:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is clicked on
+
+2023-07-11 00:10:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australia' is visible
+
+2023-07-11 00:10:35 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australia' is visible
+
+2023-07-11 00:10:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Fiji")): Object 'Object Repository/KSD/Page_Product FAQs/a_Fiji' is visible
+
+2023-07-11 00:10:35 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Fiji' is visible
+
+2023-07-11 00:10:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_New Zealand")): Object 'Object Repository/KSD/Page_Product FAQs/a_New Zealand' is visible
+
+2023-07-11 00:10:35 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_New Zealand' is visible
+
+2023-07-11 00:10:35 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Australasia Location"): Taking screenshot successfully
+
+2023-07-11 00:10:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:10:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Australasia Location.png]]
+
+2023-07-11 00:10:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:10:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_11_Check_EUROPE_Location_List" time="15.222" classname="Test Cases/KDS/TC_11_Check_EUROPE_Location_List" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:10:37 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_11_Check_EUROPE_Location_List: Test Cases/KDS/TC_11_Check_EUROPE_Location_List
+
+2023-07-11 00:10:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_06_Select_Project_Location"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:10:37 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_06_Select_Project_Location: Test Cases/KDS/TC_06_Select_Project_Location
+
+2023-07-11 00:10:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:10:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:10:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:10:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:10:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:10:45 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:10:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:10:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:10:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Select Project Location")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:10:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:10:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:10:48 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:10:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:10:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:10:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:10:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:10:50 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:10:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Europe' is clicked on
+
+2023-07-11 00:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Europe' is clicked on
+
+2023-07-11 00:10:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_United Kingdom")): Object 'Object Repository/KSD/Page_Product FAQs/a_United Kingdom' is visible
+
+2023-07-11 00:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_United Kingdom' is visible
+
+2023-07-11 00:10:51 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Europe Location"): Taking screenshot successfully
+
+2023-07-11 00:10:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:10:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Europe Location.png]]
+
+2023-07-11 00:10:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:10:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_12_Check_MIDDLE EAST_Location_List" time="18.788" classname="Test Cases/KDS/TC_12_Check_MIDDLE EAST_Location_List" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:10:52 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_12_Check_MIDDLE EAST_Location_List: Test Cases/KDS/TC_12_Check_MIDDLE EAST_Location_List
+
+2023-07-11 00:10:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_06_Select_Project_Location"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:10:52 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_06_Select_Project_Location: Test Cases/KDS/TC_06_Select_Project_Location
+
+2023-07-11 00:10:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:10:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:10:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:10:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:10:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:11:02 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:11:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:11:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_India")): Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_India' is clicked on
+
+2023-07-11 00:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542")): Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/div_Select Project LocationDisplays product_9e5542' is clicked on
+
+2023-07-11 00:11:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Select Project Location")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Select Project Location' is visible
+
+2023-07-11 00:11:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Africa")): Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Africa' is visible
+
+2023-07-11 00:11:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Americas")): Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Americas' is visible
+
+2023-07-11 00:11:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Asia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Asia' is visible
+
+2023-07-11 00:11:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Australasia")): Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Australasia' is visible
+
+2023-07-11 00:11:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Europe")): Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:11:07 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Europe' is visible
+
+2023-07-11 00:11:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:11:07 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is visible
+
+2023-07-11 00:11:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_06_Select_Project_Location' successfully
+
+2023-07-11 00:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Middle East")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is clicked on
+
+2023-07-11 00:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Middle East' is clicked on
+
+2023-07-11 00:11:08 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Bahrain")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Bahrain' is right clicked on
+
+2023-07-11 00:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Bahrain' is right clicked on
+
+2023-07-11 00:11:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Bahrain")): Object 'Object Repository/KSD/Page_Product FAQs/a_Bahrain' is visible
+
+2023-07-11 00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Bahrain' is visible
+
+2023-07-11 00:11:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Kuwait")): Object 'Object Repository/KSD/Page_Product FAQs/a_Kuwait' is visible
+
+2023-07-11 00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Kuwait' is visible
+
+2023-07-11 00:11:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_United Arab Emirates")): Object 'Object Repository/KSD/Page_Product FAQs/a_United Arab Emirates' is visible
+
+2023-07-11 00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_United Arab Emirates' is visible
+
+2023-07-11 00:11:09 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Middle East Location"): Taking screenshot successfully
+
+2023-07-11 00:11:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:11:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Middle East Location.png]]
+
+2023-07-11 00:11:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:11:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_13_Check_Create_New_Folder" time="40.225" classname="Test Cases/KDS/TC_13_Check_Create_New_Folder" status="FAILED">
+         <failure type="FAILED" message="Test Cases/KDS/TC_13_Check_Create_New_Folder FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC_13_Check_Create_New_Folder.run(TC_13_Check_Create_New_Folder:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-07-11 00:13:16 - [TEST_CASE][FAILED] - Test Cases/KDS/TC_13_Check_Create_New_Folder: Test Cases/KDS/TC_13_Check_Create_New_Folder FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC_13_Check_Create_New_Folder.run(TC_13_Check_Create_New_Folder:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-07-11 00:13:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_01_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_01_Login' successfully
+
+2023-07-11 00:13:17 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_01_Login: Test Cases/KDS/TC_01_Login
+
+2023-07-11 00:13:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:13:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:13:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:13:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:13:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:13:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:13:26 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:13:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:13:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:13:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is clicked on
+
+2023-07-11 00:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-user' is clicked on
+
+2023-07-11 00:13:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email"), "Bhushan.borse@kohler.com"): Text 'Bhushan.borse@kohler.com' is set on object 'Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email'
+
+2023-07-11 00:13:30 - [MESSAGE][PASSED] - Text 'Bhushan.borse@kohler.com' is set on object 'Object Repository/KSD/Page_Product FAQs/input_E-mail Address_nav-user-email'
+
+2023-07-11 00:13:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password"), "UkTT/T5uWxEyt5z+WbCT2w=="): Text ****** has been set on object 'Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password'
+
+2023-07-11 00:13:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/KSD/Page_Product FAQs/input_Password_nav-user-password'
+
+2023-07-11 00:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Sign In")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Sign In' is clicked on
+
+2023-07-11 00:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Sign In' is clicked on
+
+2023-07-11 00:13:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Bhushan")): Object 'Object Repository/KSD/Page_Product FAQs/a_Bhushan' is visible
+
+2023-07-11 00:13:38 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Bhushan' is visible
+
+2023-07-11 00:13:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Lgin"): Taking screenshot successfully
+
+2023-07-11 00:13:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:13:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Lgin.png]]
+
+2023-07-11 00:13:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_01_Login' successfully
+
+2023-07-11 00:13:40 - [TEST_STEP][PASSED] - click(findTestObject("KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Product FAQs/i_OK_fal fa-folder")): Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Product FAQs/i_OK_fal fa-folder' is clicked on
+
+2023-07-11 00:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Product FAQs/i_OK_fal fa-folder' is clicked on
+
+2023-07-11 00:13:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_Create new folder"), 0): Scroll to object 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_Create new folder' successfully
+
+2023-07-11 00:13:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 00:13:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_Create new folder' successfully
+
+2023-07-11 00:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_Create new folder")): Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_Create new folder' is clicked on
+
+2023-07-11 00:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_Create new folder' is clicked on
+
+2023-07-11 00:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/input_Folder Name_create-folder-name"), "test folder"): Text 'test folder' is set on object 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/input_Folder Name_create-folder-name'
+
+2023-07-11 00:13:50 - [MESSAGE][PASSED] - Text 'test folder' is set on object 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/input_Folder Name_create-folder-name'
+
+2023-07-11 00:13:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/textarea_Project Folder Details_create-note"), "test folder Description"): Text 'test folder Description' is set on object 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/textarea_Project Folder Details_create-note'
+
+2023-07-11 00:13:50 - [MESSAGE][PASSED] - Text 'test folder Description' is set on object 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/textarea_Project Folder Details_create-note'
+
+2023-07-11 00:13:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/button_Create Folder")): Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/button_Create Folder' is clicked on
+
+2023-07-11 00:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/button_Create Folder' is clicked on
+
+2023-07-11 00:13:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_test folder")): Object 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_test folder' is visible
+
+2023-07-11 00:13:53 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_test folder' is visible
+
+2023-07-11 00:13:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/i_test folder_fal fa-trash-alt")): Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/i_test folder_fal fa-trash-alt' is clicked on
+
+2023-07-11 00:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/i_test folder_fal fa-trash-alt' is clicked on
+
+2023-07-11 00:13:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/button_Delete Folder")): Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/button_Delete Folder' is clicked on
+
+2023-07-11 00:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/button_Delete Folder' is clicked on
+
+2023-07-11 00:13:54 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_test folder"), 0): Web element with id: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_test folder' located by 'By.xpath: //div[@id='dynamic-folders']/div[2]/div/a/h2' is not present after '30' second(s)
+
+2023-07-11 00:13:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-07-11 00:13:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/KSD/Page_Project Folder Landing Page/Page_Project Folder Landing Page/h2_test folder' located by 'By.xpath: //div[@id='dynamic-folders']/div[2]/div/a/h2' is not present after '30' second(s)
+
+2023-07-11 00:13:56 - [TEST_STEP][FAILED] - takeScreenshotAsCheckpoint("Create New Folder"): Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC_13_Check_Create_New_Folder.run(TC_13_Check_Create_New_Folder:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at Script1687863239032.run(Script1687863239032.groovy:48)
+	... 16 more
+)
+
+2023-07-11 00:13:57 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC_13_Check_Create_New_Folder.run(TC_13_Check_Create_New_Folder:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at Script1687863239032.run(Script1687863239032.groovy:48)
+	... 16 more
+)]]></system-out>
+         <system-err><![CDATA[2023-07-11 00:13:16 - [TEST_CASE][FAILED] - Test Cases/KDS/TC_13_Check_Create_New_Folder: Test Cases/KDS/TC_13_Check_Create_New_Folder FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC_13_Check_Create_New_Folder.run(TC_13_Check_Create_New_Folder:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header" time="19.001" classname="Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:13:57 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header: Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header
+
+2023-07-11 00:13:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:13:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:13:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:13:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:14:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:14:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:14:08 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:14:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:14:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:14:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:14:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb")): Object 'Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb' is visible
+
+2023-07-11 00:14:16 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_15_Find_Store_Brazil_Location" time="23.307" classname="Test Cases/KDS/TC_15_Find_Store_Brazil_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:14:48 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_15_Find_Store_Brazil_Location: Test Cases/KDS/TC_15_Find_Store_Brazil_Location
+
+2023-07-11 00:14:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("KDS/TC_14_Check_Find_Store_Link_In_Header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header' successfully
+
+2023-07-11 00:14:48 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header: Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header
+
+2023-07-11 00:14:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:14:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:14:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:14:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:14:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:14:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:14:57 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:14:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:14:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:15:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb")): Object 'Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb' is visible
+
+2023-07-11 00:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/Page_Find a KOHLER Store  Studio KOHLER/p_Find a Kohler Experience Center or Kohler_9474eb' is visible
+
+2023-07-11 00:15:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/KDS/TC_14_Check_Find_Store_Link_In_Header' successfully
+
+2023-07-11 00:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_BRAZIL")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_BRAZIL' is clicked on
+
+2023-07-11 00:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_BRAZIL' is clicked on
+
+2023-07-11 00:15:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores' is visible
+
+2023-07-11 00:15:09 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores' is visible
+
+2023-07-11 00:15:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_BRAZIL")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_BRAZIL' is visible
+
+2023-07-11 00:15:09 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_BRAZIL' is visible
+
+2023-07-11 00:15:09 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Find a Store Brazil Location"): Taking screenshot successfully
+
+2023-07-11 00:15:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:15:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Find a Store Brazil Location.png]]
+
+2023-07-11 00:15:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:15:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_16_Find_Store_CANADA_Location" time="18.98" classname="Test Cases/KDS/TC_16_Find_Store_CANADA_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:15:11 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_16_Find_Store_CANADA_Location: Test Cases/KDS/TC_16_Find_Store_CANADA_Location
+
+2023-07-11 00:15:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:15:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:15:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:15:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:15:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:15:19 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:15:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:15:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:15:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:15:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h2_Select Store Location")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h2_Select Store Location' is visible
+
+2023-07-11 00:15:27 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h2_Select Store Location' is visible
+
+2023-07-11 00:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/a_CANADA")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/a_CANADA' is clicked on
+
+2023-07-11 00:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/a_CANADA' is clicked on
+
+2023-07-11 00:15:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores' is visible
+
+2023-07-11 00:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/h1_All Stores' is visible
+
+2023-07-11 00:15:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/span_CANADA")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/span_CANADA' is visible
+
+2023-07-11 00:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/Page_Find a KOHLER Store  Studio KOHLER/span_CANADA' is visible
+
+2023-07-11 00:15:29 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Find a Store Canada Location"): Taking screenshot successfully
+
+2023-07-11 00:15:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:15:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Find a Store Canada Location.png]]
+
+2023-07-11 00:15:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:15:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_17_Find_Store_SINGAPORE_Location" time="21.25" classname="Test Cases/KDS/TC_17_Find_Store_SINGAPORE_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:15:30 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_17_Find_Store_SINGAPORE_Location: Test Cases/KDS/TC_17_Find_Store_SINGAPORE_Location
+
+2023-07-11 00:15:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:15:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:15:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:15:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:15:40 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:15:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:15:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_SINGAPORE")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_SINGAPORE' is clicked on
+
+2023-07-11 00:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_SINGAPORE' is clicked on
+
+2023-07-11 00:15:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_SINGAPORE")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_SINGAPORE' is visible
+
+2023-07-11 00:15:50 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_SINGAPORE' is visible
+
+2023-07-11 00:15:50 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Find a Store Singapore Location"): Taking screenshot successfully
+
+2023-07-11 00:15:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:15:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Find a Store Singapore Location.png]]
+
+2023-07-11 00:15:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:15:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_18_Find_Store_CHINA_Location" time="18.688" classname="Test Cases/KDS/TC_18_Find_Store_CHINA_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:15:51 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_18_Find_Store_CHINA_Location: Test Cases/KDS/TC_18_Find_Store_CHINA_Location
+
+2023-07-11 00:15:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:15:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:15:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:15:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:15:54 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:15:57 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:15:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:15:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_CHINA")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_CHINA' is clicked on
+
+2023-07-11 00:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_CHINA' is clicked on
+
+2023-07-11 00:16:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_CHINA")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_CHINA' is visible
+
+2023-07-11 00:16:08 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_CHINA' is visible
+
+2023-07-11 00:16:08 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Find a Store China Location"): Taking screenshot successfully
+
+2023-07-11 00:16:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:16:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Find a Store China Location.png]]
+
+2023-07-11 00:16:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-11 00:16:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_19_Find_Store_INDIA_Location" time="17.126" classname="Test Cases/KDS/TC_19_Find_Store_INDIA_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:16:10 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_19_Find_Store_INDIA_Location: Test Cases/KDS/TC_19_Find_Store_INDIA_Location
+
+2023-07-11 00:16:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:16:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:16:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:16:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:16:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:16:18 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:16:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:16:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:16:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_INDIA")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_INDIA' is clicked on
+
+2023-07-11 00:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_INDIA' is clicked on
+
+2023-07-11 00:16:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_INDIA")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_INDIA' is visible
+
+2023-07-11 00:16:27 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_INDIA' is visible
+
+2023-07-11 00:16:27 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Find a Store india Location"): Taking screenshot successfully
+
+2023-07-11 00:16:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:16:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Find a Store india Location.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_20_Find_Store_PANAMA_Location" time="19.56" classname="Test Cases/KDS/TC_20_Find_Store_PANAMA_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:16:27 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_20_Find_Store_PANAMA_Location: Test Cases/KDS/TC_20_Find_Store_PANAMA_Location
+
+2023-07-11 00:16:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:16:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:16:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:16:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:16:30 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:16:37 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:16:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:16:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:16:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_PANAMA")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_PANAMA' is clicked on
+
+2023-07-11 00:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_PANAMA' is clicked on
+
+2023-07-11 00:16:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_PANAMA")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_PANAMA' is visible
+
+2023-07-11 00:16:46 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_PANAMA' is visible
+
+2023-07-11 00:16:46 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Find a store Panama Location"): Taking screenshot successfully
+
+2023-07-11 00:16:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-07-11 00:16:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Find a store Panama Location.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_21_Find_Store_TAIWAN_Location" time="17.078" classname="Test Cases/KDS/TC_21_Find_Store_TAIWAN_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:16:47 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_21_Find_Store_TAIWAN_Location: Test Cases/KDS/TC_21_Find_Store_TAIWAN_Location
+
+2023-07-11 00:16:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:16:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:16:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:16:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:16:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:16:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:16:54 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:16:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:16:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:16:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:17:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_TAIWAN")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_TAIWAN' is clicked on
+
+2023-07-11 00:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_TAIWAN' is clicked on
+
+2023-07-11 00:17:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_TAIWAN")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_TAIWAN' is visible
+
+2023-07-11 00:17:04 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_TAIWAN' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_22_Find_Store_THAILAND_Location" time="17.159" classname="Test Cases/KDS/TC_22_Find_Store_THAILAND_Location" status="FAILED">
+         <failure type="FAILED" message="Test Cases/KDS/TC_22_Find_Store_THAILAND_Location FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at TC_22_Find_Store_THAILAND_Location.run(TC_22_Find_Store_THAILAND_Location:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-07-11 00:17:57 - [TEST_CASE][FAILED] - Test Cases/KDS/TC_22_Find_Store_THAILAND_Location: Test Cases/KDS/TC_22_Find_Store_THAILAND_Location FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at TC_22_Find_Store_THAILAND_Location.run(TC_22_Find_Store_THAILAND_Location:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-07-11 00:17:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:17:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:17:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:17:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:18:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:18:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:18:06 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:18:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:18:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/li_THAILAND")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/li_THAILAND' is clicked on
+
+2023-07-11 00:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/li_THAILAND' is clicked on
+
+2023-07-11 00:18:14 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND")): Unable to verify object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at TC_22_Find_Store_THAILAND_Location.run(TC_22_Find_Store_THAILAND_Location:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2023-07-11 00:18:14 - [MESSAGE][FAILED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at TC_22_Find_Store_THAILAND_Location.run(TC_22_Find_Store_THAILAND_Location:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+)
+[[ATTACHMENT|/Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014894390.png]]
+
+2023-07-11 00:18:14 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at TC_22_Find_Store_THAILAND_Location.run(TC_22_Find_Store_THAILAND_Location:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|/Users/bhushan/git/katalon/Reports/20230711_000527/KDS_Test_Suite/20230711_000531/1689014894608.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-11 00:17:57 - [TEST_CASE][FAILED] - Test Cases/KDS/TC_22_Find_Store_THAILAND_Location: Test Cases/KDS/TC_22_Find_Store_THAILAND_Location FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$5.call(Unknown Source)
+	at TC_22_Find_Store_THAILAND_Location.run(TC_22_Find_Store_THAILAND_Location:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_THAILAND' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_23_Find_Store_UNITED_KINGDOM_Location" time="17.975" classname="Test Cases/KDS/TC_23_Find_Store_UNITED_KINGDOM_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:18:14 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_23_Find_Store_UNITED_KINGDOM_Location: Test Cases/KDS/TC_23_Find_Store_UNITED_KINGDOM_Location
+
+2023-07-11 00:18:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:18:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:18:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:18:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:18:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:18:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:18:23 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:18:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:18:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:18:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:18:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_UNITED KINGDOM")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_UNITED KINGDOM' is clicked on
+
+2023-07-11 00:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_UNITED KINGDOM' is clicked on
+
+2023-07-11 00:18:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED KINGDOM")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED KINGDOM' is visible
+
+2023-07-11 00:18:32 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED KINGDOM' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_24_Find_Store_UNITED_STATES_Location" time="19.777" classname="Test Cases/KDS/TC_24_Find_Store_UNITED_STATES_Location" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:18:32 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_24_Find_Store_UNITED_STATES_Location: Test Cases/KDS/TC_24_Find_Store_UNITED_STATES_Location
+
+2023-07-11 00:18:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:18:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:18:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:18:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:18:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:18:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:18:42 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:18:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:18:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt")): Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/i_OK_fal fa-map-marker-alt' is clicked on
+
+2023-07-11 00:18:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_UNITED STATES")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_UNITED STATES' is clicked on
+
+2023-07-11 00:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/a_UNITED STATES' is clicked on
+
+2023-07-11 00:18:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED STATES")): Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED STATES' is clicked on
+
+2023-07-11 00:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED STATES' is clicked on
+
+2023-07-11 00:18:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED STATES")): Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED STATES' is visible
+
+2023-07-11 00:18:52 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Find a KOHLER Store  Studio KOHLER/span_UNITED STATES' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_27_Footer_ContactUs_Link" time="20.443" classname="Test Cases/KDS/TC_27_Footer_ContactUs_Link" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:18:52 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_27_Footer_ContactUs_Link: Test Cases/KDS/TC_27_Footer_ContactUs_Link
+
+2023-07-11 00:18:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:18:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:18:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:18:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:18:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:18:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:19:03 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:19:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:19:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:19:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Contact Us")): Object 'Object Repository/KSD/Page_Product FAQs/a_Contact Us' is visible
+
+2023-07-11 00:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Contact Us' is visible
+
+2023-07-11 00:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Contact Us")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Contact Us' is clicked on
+
+2023-07-11 00:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Contact Us' is clicked on
+
+2023-07-11 00:19:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Contact KOHLER  Studio KOHLER/h1_Contact Us")): Object 'Object Repository/KSD/Page_Contact KOHLER  Studio KOHLER/h1_Contact Us' is visible
+
+2023-07-11 00:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Contact KOHLER  Studio KOHLER/h1_Contact Us' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_28_Foter_Sitemap_Link" time="20.357" classname="Test Cases/KDS/TC_28_Foter_Sitemap_Link" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:19:13 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_28_Foter_Sitemap_Link: Test Cases/KDS/TC_28_Foter_Sitemap_Link
+
+2023-07-11 00:19:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:19:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:19:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:19:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:19:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:19:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:19:24 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:19:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:19:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:19:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:19:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Sitemap")): Object 'Object Repository/KSD/Page_Product FAQs/a_Sitemap' is visible
+
+2023-07-11 00:19:26 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Sitemap' is visible
+
+2023-07-11 00:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Sitemap")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Sitemap' is clicked on
+
+2023-07-11 00:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Sitemap' is clicked on
+
+2023-07-11 00:19:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Site Map/h1_Site Map")): Object 'Object Repository/KSD/Page_Site Map/h1_Site Map' is visible
+
+2023-07-11 00:19:33 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Site Map/h1_Site Map' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_26_Footer_FAQs_Link" time="18.143" classname="Test Cases/KDS/TC_26_Footer_FAQs_Link" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:19:33 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_26_Footer_FAQs_Link: Test Cases/KDS/TC_26_Footer_FAQs_Link
+
+2023-07-11 00:19:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:19:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:19:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:19:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:19:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:19:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:19:44 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:19:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:19:44 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:19:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_FAQs")): Object 'Object Repository/KSD/Page_Product FAQs/a_FAQs' is visible
+
+2023-07-11 00:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_FAQs' is visible
+
+2023-07-11 00:19:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_FAQs")): Object: 'Object Repository/KSD/Page_Product FAQs/a_FAQs' is clicked on
+
+2023-07-11 00:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_FAQs' is clicked on
+
+2023-07-11 00:19:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/h1_Product FAQs")): Object 'Object Repository/KSD/Page_Product FAQs/h1_Product FAQs' is visible
+
+2023-07-11 00:19:51 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/h1_Product FAQs' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KDS/TC_25_ Footer_Press_Room_Link" time="16.302" classname="Test Cases/KDS/TC_25_ Footer_Press_Room_Link" status="PASSED">
+         <system-out><![CDATA[2023-07-11 00:19:51 - [TEST_CASE][PASSED] - Test Cases/KDS/TC_25_ Footer_Press_Room_Link: Test Cases/KDS/TC_25_ Footer_Press_Room_Link
+
+2023-07-11 00:19:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-11 00:19:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-11 00:19:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-07-11 00:19:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-11 00:19:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-11 00:19:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.studiokohler.com/en-us/faqs"): Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:19:59 - [MESSAGE][PASSED] - Navigate to 'https://www.studiokohler.com/en-us/faqs' successfully
+
+2023-07-11 00:19:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-11 00:20:00 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-11 00:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies")): Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/button_Accept All Cookies' is clicked on
+
+2023-07-11 00:20:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Press Room")): Object 'Object Repository/KSD/Page_Product FAQs/a_Press Room' is visible
+
+2023-07-11 00:20:03 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Product FAQs/a_Press Room' is visible
+
+2023-07-11 00:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/KSD/Page_Product FAQs/a_Press Room")): Object: 'Object Repository/KSD/Page_Product FAQs/a_Press Room' is clicked on
+
+2023-07-11 00:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/KSD/Page_Product FAQs/a_Press Room' is clicked on
+
+2023-07-11 00:20:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/KSD/Page_Press Room/h1_Press Room")): Object 'Object Repository/KSD/Page_Press Room/h1_Press Room' is visible
+
+2023-07-11 00:20:07 - [MESSAGE][PASSED] - Object 'Object Repository/KSD/Page_Press Room/h1_Press Room' is visible
+
+2023-07-11 00:20:07 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.studiokohler.com/en-us/pressroom'
+
+2023-07-11 00:20:07 - [MESSAGE][PASSED] - Current window's url is: 'https://www.studiokohler.com/en-us/pressroom']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-11 00:07:37 - [TEST_SUITE][FAILED] - KDS_Test_Suite: Test Cases/KDS/TC_13_Check_Create_New_Folder FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC_13_Check_Create_New_Folder.run(TC_13_Check_Create_New_Folder:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-11 00:07:37 - [TEST_SUITE][FAILED] - KDS_Test_Suite: Test Cases/KDS/TC_13_Check_Create_New_Folder FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:126)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:84)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshotAsCheckpoint(WebUiBuiltInKeywords.groovy:3093)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshotAsCheckpoint$6.call(Unknown Source)
+	at TC_13_Check_Create_New_Folder.run(TC_13_Check_Create_New_Folder:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689014131159.run(TempTestSuite1689014131159.groovy:36)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
+	at com.kms.katalon.core.webui.util.FileUtil.getScrollY(FileUtil.java:355)
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:68)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:127)
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
